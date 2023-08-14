@@ -1,0 +1,41 @@
+version: 0.2
+# env:
+#   variables:
+#     REACT_APP_SECRET: "$REACT_APP_SECRET"
+#     REACT_APP_URL: "$REACT_APP_URL"
+#     REACT_APP_FIREBASEAPIKEY: "$REACT_APP_FIREBASEAPIKEY"
+#     REACT_APP_FIREBASEAUTHDOMAIN: "$REACT_APP_FIREBASEAUTHDOMAIN"
+#     REACT_APP_FIREBASEAUTHPROVIDER: "$REACT_APP_FIREBASEAUTHPROVIDER"
+#     REACT_APP_STORAGEBUCKET: "$REACT_APP_STORAGEBUCKET"
+#     REACT_APP_BASEURL: "$REACT_APP_BASEURL"
+#     TWILIO_API_KEY: "$TWILIO_API_KEY"
+#     TWILIO_ACCOUNT_SID: "$TWILIO_ACCOUNT_SID"
+#     TWILIO_API_SECRET: "TWILIO_API_SECRET"
+#     REACT_APP_FIREBASEPROJECTID: "$REACT_APP_FIREBASEPROJECTID"
+#     REACT_APP_AWS_PINPOINT_APPLICATION_ID: "$REACT_APP_AWS_PINPOINT_APPLICATION_ID"
+#     REACT_APP_AWS_REGION: "$REACT_APP_AWS_REGION"
+#     REACT_APP_AWS_COGNITO_POOL_ID: "$REACT_APP_AWS_COGNITO_POOL_ID"
+#     REACT_APP_SOCKET_URL: "$REACT_APP_SOCKET_URL"
+phases:
+   install:
+      runtime-versions:
+         nodejs: 12
+   pre_build:
+      commands:
+         - APP_ENV_FILE=$APP_ENV_FILE
+         - echo Installing source NPM dependencies...
+         - npm install
+   build:
+      commands:
+         - aws s3 cp $APP_ENV_FILE .
+         - echo Build started on `date`
+         - echo Compiling the dist folder
+         - npm run build
+   post_build:
+      commands:
+         - echo Build completed on `date`
+# Include only the files required for your application to run.
+artifacts:
+   files:
+      - "**/*"
+   base-directory: "build"

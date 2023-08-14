@@ -1,0 +1,226 @@
+.Phrases {
+  position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 720px;
+}
+.max-500-phrases {
+  max-width: 500px;
+  margin: 25 auto;
+  position: relative;
+  /* text-align: center; */
+  font-size: 30px;
+}
+.max-5001-phrases {
+  max-width: 500px;
+  margin-bottom: 25px;
+  align-content: center;
+  right: 220px;
+  top: 100px;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+.custom-filed1-phrases {
+  margin-bottom: 20px;
+  top: 0px;
+  color: var(--gray-color-new);
+}
+.custom-filed2-phrases {
+  margin-bottom: 100px;
+  top: 0px;
+  color: var(--gray-color-new);
+  overflow-y: scroll;
+  font-size: 14px;
+}
+.custom-filed1-phrases label {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--gray-color-new);
+  margin-bottom: -20px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.custom-filed2-phrases-label {
+  width: 126px;
+  height: 23px;
+  left: 1180px;
+  top: 100px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 20px;
+  margin-left: 15px;
+
+  color: #202124;
+}
+.custom-filed22-phrases {
+  width: 126px;
+  height: 23px;
+  left: 1180px;
+  top: 150px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 40px;
+  margin-left: 15px;
+
+  color: #202124;
+}
+.max-500-phrases {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.custom-filed-phrases {
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+.custom-filed-label-phrases {
+  width: 200px;
+  height: 23px;
+  left: 1180px;
+  top: 100px;
+  margin-top: 30px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 23px;
+}
+.custom-filed44-phrases label {
+  width: 182px;
+  height: 30px;
+  left: 885px;
+  margin-top: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #202124;
+  width: 270px;
+  height: 45px;
+}
+.btn.btn-blue-block-phrases {
+  background-color: var(--theme-color-new);
+  background-image: linear-gradient(148deg, #0074ff 0%, #0091ff 100%);
+  border: 1px solid #0091ff;
+  /* font-family: var(--sf-display); */
+  font-size: 1.7rem;
+  color: var(--white-color);
+  letter-spacing: 0.2px;
+  text-align: center;
+  border-radius: 5px;
+  /* padding-top: 15px;
+      padding-bottom: 15px; */
+  padding: 12px 16px;
+  font-weight: 600;
+  width: 350px;
+  height: 45px;
+  /* background-color: #2680bc; */
+}
+.custom-input-phrases {
+  color: var(--gray-color-new);
+  width: 350px;
+  height: 45px;
+  font-size: 20px;
+  background-color: var(--white-color);
+  letter-spacing: 0.6px;
+  font-weight: normal;
+  border: solid 1px var(--border-color-new);
+  padding: 0 12px;
+  border-radius: 5px;
+}
+.sidebar-inner-phrases {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  margin-left: 15px;
+}
+.button-input-phrases {
+  border: none;
+  margin: 5px;
+  background: transparent;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.scrollbar-phrases {
+  max-height: 550px;
+  overflow-y: scroll;
+}
+.right-label {
+  margin-top: 80px;
+  font-weight: 400;
+}
+.create-label {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.shortcuts-label {
+  font-weight: 400;
+  font-size: 30px;
+}
+.right-sidebar-background {
+  background: #fafafa;
+  width: 300px;
+  padding-left: 35px;
+  margin-left: -65px;
+  height: 100%;
+}
+.left-sidebar-background {
+  background: #fafafa;
+}
+.row-background {
+  position: absolute;
+  width: 240px;
+  height: 40px;
+  left: 1170px;
+  top: 143px;
+
+  background: #ffffff;
+  border-radius: 5px;
+}
+.row-spacing {
+  background: white;
+  margin-bottom: 15px;
+  height: 40px;
+}
+.element-margins {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #7f7f7f;
+}
+.shortcut-label-margin {
+  margin-bottom: -10px;
+}
+.phrase-label-margin {
+  margin-bottom: -10px;
+}
+.leftbar-button-controls:hover {
+  background: #f2f2f2;
+  /* padding: 5px; */
+}
+.leftbar-button-controls {
+  background: white;
+  padding: 5px;
+}
+
+.textarea {
+  min-height: 100px;
+  padding-top: 5px;
+}

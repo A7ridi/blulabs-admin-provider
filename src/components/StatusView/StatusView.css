@@ -1,0 +1,54 @@
+.StatusView {
+  position: relative;
+  /* margin: 100px; */
+}
+
+.StatusView .label-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+}
+
+.StatusView img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.StatusView .alert {
+  font-size: 15px;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.StatusView .success {
+  background: #edf7ed;
+  color: #1e4620;
+}
+
+.StatusView .error {
+  background: #fdeaea;
+  color: #611a15;
+}
+
+.StatusView .none {
+  padding: 0;
+}
+
+.StatusView .alert span {
+  flex: 1;
+}
+
+.StatusView .alert .action-button {
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 15px;
+}

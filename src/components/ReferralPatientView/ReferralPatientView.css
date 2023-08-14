@@ -1,0 +1,177 @@
+.referral-title {
+  color: #17182d;
+  font-weight: 700;
+  font-size: 25px;
+  transform: translateX(40%);
+}
+.referral-header {
+  border-bottom: none;
+}
+
+.referral-footer {
+  justify-content: center;
+  border-top: none;
+  padding: 20px 0px 40px 0px;
+}
+.referral-close-button {
+  font-size: 3rem;
+}
+.referral-modal-content {
+  border-radius: 20px;
+  max-width: 80%;
+  transform: translateX(15%);
+  height: auto;
+}
+.patient-referral-form .label-styling {
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+  width: 70%;
+}
+.patient-referral-form .css-2b097c-container {
+  width: 100%;
+}
+.patient-referral-form {
+  padding: 0px 15px;
+  position: relative;
+}
+._3vt7_Mh4hRCFbp__dFqBCI {
+  padding-bottom: 15px;
+}
+.message-text-area {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: rgba(178, 177, 182, 0.2);
+  color: #494949;
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+}
+.video-message-area {
+  width: 100%;
+  background: rgba(178, 177, 182, 0.2);
+  text-align: center;
+  height: 95px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-label {
+  color: red;
+  font-size: 12px;
+}
+.multiselect-options-main-div {
+  display: flex;
+}
+.multiselect-options-checkbox {
+  width: 18px;
+  height: 18px;
+  margin-top: 8px;
+}
+.multiselect-options-initials-div {
+  width: 12%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+  height: 12%;
+  font-size: 16px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.multiselect-options-label-div {
+  font-size: 15px;
+  margin-top: 5px;
+  width: 80%;
+}
+.multiselect-options-content-icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.content-dropdown-main-div {
+  display: flex;
+}
+.select-all-content-checkbox-label {
+  transform: translateY(1.5px);
+}
+.select-all-content-checkbox {
+  text-align: right;
+  transform: translate(25px, 15px);
+}
+.select-all-content-label {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  transform: translateY(14px);
+}
+.video-message-portal {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0);
+  position: fixed;
+  overflow-y: hidden;
+}
+.video-message-view {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(85, 85, 85);
+  width: 50%;
+  height: 50rem;
+}
+.video-message-footer {
+  background: #e0e1e1;
+}
+.video-message-timer-label {
+  width: 50%;
+  text-align: start;
+  font-size: 15px;
+}
+.video-message-start-stop-button {
+  width: 60%;
+  cursor: pointer;
+}
+.video-message-tag {
+  height: 36rem;
+}
+.video-message-body {
+  background: black;
+}
+.video-tag-main-div {
+  position: relative;
+}
+.retry-upload-main-div {
+  display: flex;
+  transform: translate(0rem, -10rem);
+  justify-content: space-evenly;
+}
+.retry-button {
+  height: 40px;
+  cursor: pointer;
+}
+.upload-button {
+  height: 40px;
+  cursor: pointer;
+}
+.video-area-cross-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 15px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.folder-tree-node {
+  padding-left: 0.75rem;
+  /* z-index: 1; */
+}
+#folders-list {
+  animation: folder-list-anim 3s forwards;
+}
+.dropdown-overlay-option {
+  border-radius: 6px;
+  /* max-height: 100%; */
+  overflow-y: auto;
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes folder-list-anim {
+  0% {
+    /* height: 0px; */
+    max-height: 0px;
+  }
+  100% {
+    /* max-height: auto; */
+    max-height: 100vh;
+  }
+}

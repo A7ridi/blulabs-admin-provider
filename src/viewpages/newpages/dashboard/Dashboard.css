@@ -1,0 +1,160 @@
+#dashboard {
+   overflow-y: scroll;
+}
+.banner-container {
+   border-radius: 14px;
+   overflow: hidden;
+   width: 96%;
+   margin: auto;
+   margin-bottom: 50px;
+   height: 120px;
+   background-image: linear-gradient(to right, #043293, #1e49a3);
+}
+
+.banner-image {
+   background-image: url("../../../images//dashboard-action-icons//banner (1).svg");
+   background-repeat: no-repeat;
+   background-size: cover !important;
+   width: 101%;
+   height: 130px;
+   position: absolute;
+}
+.flex-div-banner {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.header-banner {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 21px;
+   color: #ffffff;
+   padding-left: 100px;
+   padding-top: 35px;
+   padding-bottom: 10px;
+}
+.subtitle-banner {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 18px;
+   padding-left: 100px;
+
+   color: #ffffff;
+}
+.button-red-banner {
+   background: #ff567a;
+   border-radius: 11px;
+   width: 145px;
+   height: 49px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 18px;
+   margin-top: 35px;
+   margin-right: 80px;
+   color: #ffffff;
+}
+
+#dashboard .dashboard-header .analytics-row {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 40px;
+}
+#dashboard .dashboard-header .analytics-container {
+   height: 92px;
+   background: white;
+   width: 100%;
+   border: 1px solid rgba(224, 224, 224, 0.6);
+}
+#dashboard .dashboard-header .analytics-container .analytics-value {
+   font-size: 40px;
+   font-weight: bold;
+}
+#dashboard .dashboard-header .header-name {
+   text-transform: capitalize;
+   font-size: 28px;
+}
+#dashboard .dashboard-header .analytics-loading-shade {
+   background: #eeeeee;
+}
+#dashboard .patient-list-headers {
+   display: grid;
+   gap: 10px;
+}
+#dashboard table tbody tr {
+   border-bottom: 1px solid rgba(224, 224, 224, 0.5);
+}
+#dashboard table tbody tr .action-icon:not(.pb-connect):hover path {
+   fill: var(--primary-color);
+   stroke: var(--primary-color);
+}
+#dashboard table tbody tr .action-icon.pb-connect:hover path {
+   stroke: var(--primary-color);
+}
+#dashboard table td:first-child {
+   max-width: 150px;
+   min-width: 150px;
+   overflow-x: hidden;
+}
+#dashboard .loading-table-row {
+   height: 64px;
+}
+
+@media only screen and (max-width: 900px) {
+   #dashboard .dashboard-header .analytics-row {
+      grid-template-columns: repeat(2, 1fr);
+      /* width: 92% !important; */
+   }
+   .banner-image {
+      left: 0px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* border-radius: 30px; */
+   }
+   .flex-div-banner {
+      display: unset;
+      align-items: center;
+      width: 100%;
+   }
+   .banner-container {
+      text-align: center;
+      border-radius: 30px;
+      height: 200px;
+      width: 100%;
+   }
+   .banner-main-div {
+      text-align: center;
+      border-radius: 20px;
+   }
+   .header-banner {
+      padding-left: 0px;
+      padding-top: 35px;
+      padding-bottom: 10px;
+   }
+   .subtitle-banner {
+      padding-left: 0px;
+   }
+   .button-red-banner {
+      margin-top: 35px;
+      margin-right: 0px !important;
+   }
+}
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 600px) {
+   #dashboard .dashboard-header .analytics-row {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+      /* width: 85% !important; */
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+   .responsive-dashboard {
+      /* max-width: 90% !important; */
+   }
+}

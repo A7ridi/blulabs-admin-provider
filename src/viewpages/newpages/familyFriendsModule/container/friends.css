@@ -1,0 +1,15 @@
+.dropDown-custom {
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   /* identical to box height */
+
+   color: #000000;
+}
+.dropDown-custom:hover {
+   color: black !important;
+}

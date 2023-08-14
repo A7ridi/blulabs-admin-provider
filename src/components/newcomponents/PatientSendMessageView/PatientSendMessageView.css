@@ -1,0 +1,79 @@
+.patient-send-message-view {
+  width: 600px;
+  height: 301px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.patient-send-message-view .send-message-textarea {
+  width: 450px;
+  height: 99px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 12px;
+}
+.patient-send-message-view .mention-control {
+  height: 100px;
+}
+.patient-send-message-view .mention-control .mention-control__control {
+  height: 100%;
+}
+.patient-send-message-view .mention-control .mention-control__input {
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 14px !important;
+  padding: 10px;
+  color: #008dd0;
+}
+.patient-send-message-view .mention-control .mention-control__suggestions {
+  font-size: 14px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: auto;
+}
+.patient-send-message-view .mention-control .mention-control__suggestions__item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+  padding: 5px 15px;
+}
+.patient-send-message-view .mention-control .mention-control__suggestions__item.mention-control__suggestions__item--focused {
+  background-color: #cee4e5;
+}
+
+.patient-send-message-view .test_mentions--multiLine__13IZb .test_mentions__control__3e76D {
+  font-family: "sfProTextRegular";
+  font-size: 14px;
+  height: 100px;
+  background: #ffffff;
+  /* border: 1px solid #ced4da; */
+  border-radius: 10px;
+}
+.patient-send-message-view .test_mentions__suggestions__list__1lJ0b {
+  max-height: 200px;
+  overflow-y: auto;
+}
+.patient-send-message-view .test_mentions__2fBU7.test_mentions--multiLine__13IZb div:nth-child(2) {
+  z-index: 9 !important;
+  margin-top: 25px !important;
+}
+.patient-send-message-view .test_mentions__input__lIUE7 {
+  border-radius: 10px !important;
+  overflow-y: auto !important;
+}
+.patient-send-message-view .test_mentions__highlighter__2LKw7 {
+  height: 100% !important;
+  overflow-y: auto !important;
+}
+.patient-send-message-view .mention-wrapper {
+  max-height: 200px !important;
+  height: 200px;
+}
+
+.patient-send-message-view .mention-wrapper::-webkit-scrollbar {
+  width: 1px;
+}
+.patient-send-message-view .mention-wrapper::-webkit-scrollbar-thumb {
+  width: 1px;
+}

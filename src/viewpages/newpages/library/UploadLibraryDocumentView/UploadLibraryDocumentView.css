@@ -1,0 +1,128 @@
+#upload-library-document-view {
+  width: 625px;
+  min-height: 575px;
+  background: #ffffff;
+  border-radius: 10px;
+  /* height: auto; */
+}
+#hide-upload-library-document-view {
+  width: 625px;
+  min-height: 575px;
+  border-radius: 10px;
+  /* height: auto; */
+  display: none;
+}
+
+#upload-library-document-view .upload-document-input-div {
+  width: 460px;
+  height: 107px;
+  background: #f4f9ff;
+  border: 1px dashed #ced4da;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+#upload-library-document-view .upload-document-input-div-files {
+  width: 157px;
+  height: 160px;
+  background: #f4f9ff;
+  border: 1px dashed #ced4da;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px;
+}
+#upload-library-document-view .upload-document-input {
+  z-index: 1;
+  /* position: absolute;
+    width: 450px;
+    height: 107px;
+    background: #f4f9ff;
+    border: 1px dashed #ced4da;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+#upload-library-document-view
+  .hospital-dropdown
+  .css-2b097c-container
+  div.css-1wa3eu0-placeholder {
+  color: #e0e0e0 !important;
+}
+#upload-library-document-view
+  .department-dropdown
+  .css-2b097c-container
+  div.css-1wa3eu0-placeholder {
+  color: #e0e0e0 !important;
+}
+#upload-library-document-view
+  .sharewith-dropdown
+  .css-2b097c-container
+  div.css-1wa3eu0-placeholder {
+  color: var(--gray4-color) !important;
+}
+/* #upload-library-document-view
+    .hospital-dropdown
+    .css-2b097c-container
+    div.css-1hb7zxy-IndicatorsContainer {
+    display: none;
+  }
+  #upload-library-document-view
+    .department-dropdown
+    .css-2b097c-container
+    div.css-1hb7zxy-IndicatorsContainer {
+    display: none;
+  } */
+#upload-library-document-view .sharewith-dropdown .css-2b097c-container {
+  width: 165px;
+  height: 33px;
+}
+#upload-library-document-view
+  .sharewith-dropdown
+  .css-2b097c-container
+  div.css-yk16xz-control {
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+/* #upload-library-document-view
+    .sharewith-dropdown
+    .css-2b097c-container
+    div.css-1hb7zxy-IndicatorsContainer
+    .css-1okebmr-indicatorSeparator {
+    display: none;
+  } */
+#upload-library-document-view
+  .sharewith-dropdown
+  .css-2b097c-container
+  div.css-1hb7zxy-IndicatorsContainer
+  .css-6q0nyr-Svg {
+  color: var(--black1-color);
+}
+#upload-library-document-view .file-to-upload {
+  width: 145px;
+  height: 160px;
+  background: #ffffff;
+}
+#upload-library-document-view .cross-file {
+  background: var(--state-info-error);
+  width: 25px;
+  height: 25px;
+  top: 3px;
+  right: 3px;
+}
+#upload-library-document-view .upload-doc-div {
+  max-height: 160px;
+  overflow-y: auto;
+}
+#upload-library-document-view .upload-doc-div::-webkit-scrollbar {
+  width: 1px;
+}
+#upload-library-document-view .upload-doc-div::-webkit-scrollbar-thumb {
+  width: 1px;
+}
+#upload-doc-view .doc-list-view::-webkit-scrollbar {
+  width: 1px;
+}
+#upload-doc-view .doc-list-view::-webkit-scrollbar-thumb {
+  width: 1px;
+}

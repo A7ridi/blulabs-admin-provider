@@ -1,0 +1,94 @@
+.segmentViewProfile {
+  min-height: 38px;
+  /* border: var(--default-border); */
+  /* border-color: #80b1f2; */
+  flex: 1 1 0px;
+  width: 275px;
+  overflow: hidden;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+
+  background: rgba(118, 118, 128, 0.12);
+  border-radius: 8.91px;
+}
+
+.segmentViewProfile input {
+  z-index: 2;
+  opacity: 0;
+}
+.segmentViewProfile .opt-div {
+  color: black;
+  height: 100%;
+  font-weight: 500;
+  flex: 1 1 0;
+}
+.segmentViewProfile .opt-div.selected {
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 6.93px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  /* border-radius: 8px; */
+}
+
+.SegmentView {
+  min-height: 36px;
+  background: rgba(118, 118, 128, 0.12);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* border: var(--default-border);
+  border-color: #80b1f2; */
+  flex: 1 1 0px;
+  width: 100%;
+  overflow: hidden;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  border-radius: 6.93px;
+}
+.unslected-segment-profile {
+  /* background: rgba(118, 118, 128, 0.24); */
+}
+
+.SegmentView input {
+  z-index: 2;
+  opacity: 0;
+}
+.SegmentView .opt-div {
+  color: #000000;
+  height: 100%;
+  font-weight: 500;
+  flex: 1 1 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+.SegmentView .opt-div:nth-last-child(-n + 3) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.SegmentView .opt-div:last-child {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: none;
+}
+
+.SegmentView .opt-div.selected {
+  background-color: var(--primary-color);
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: -0.08px;
+  color: #ffffff;
+  border-radius: 6.93px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 99;
+}
+.margin-audio-video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  /* margin-left: 20px !important; */
+}

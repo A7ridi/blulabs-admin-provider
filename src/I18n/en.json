@@ -1,0 +1,221 @@
+{
+   "header": {
+      "apptitle": "Playback Health",
+      "headerinvitelabel": "Invite Patient",
+      "logoutlabel": "Log Out",
+      "confirmlogoutmsg": "Are you sure you want to logout?",
+      "patientList": "All Patient",
+      "forgotPasswordTitle": "Forgot Password?"
+   },
+   "errorsmessage": {
+      "interneterrormsg": "There is some internal Server Error. Please refresh your web page and try again",
+      "linkExpired": ""
+   },
+   "successMessage": {
+      "interneterrormsg": "There is some internal Server Error. Please refresh your web page and try again",
+      "otpVerification": "Sign-in successful",
+      "sendVerificationLink": "We’ve sent you an email containing a link that will allow you to login here"
+   },
+   "buttontext": {
+      "canceltext": "Cancel",
+      "uploadtext": "Upload",
+      "sendinvitetext": "Send Invite",
+      "searchtext": "Search",
+      "closeText": "Close",
+      "notificationText": "Send",
+      "InPatient": "Inpatient",
+      "OutPatient": "Outpatient",
+      "update": "Update",
+      "switchUser": "Switch User",
+      "continueAs": "Continue as",
+      "backToLogin": "Back to login",
+      "resendOTP": "Resend",
+      "continue": "Continue",
+      "passwordRequest": "Request Reset Link"
+   },
+   "loadingtext": "Loading...",
+   "login": {
+      "samltext": "Sign In"
+   },
+   "onboarding": {
+      "healthcare": "Healthcare Professional",
+      "healthcareContent": "Please enter your corporate email address",
+      "emailVerify": "Verify your email",
+      "code": "We just sent a code to the email you provided. Please enter it here.",
+      "password": "Create your password",
+      "passwordContent": "Use 8 or more characters with a mix of letters, numbers & symbols",
+      "number": "Enter your mobile number",
+      "numberAuth": "This is for 2-Factor authentication only. We won’t share it with anyone.",
+      "verifyNumber": "Verify your number",
+      "otpSend": "We just sent a code to",
+      "otpSend2": "Please enter it here.",
+      "almostThere": "Just one last thing…",
+      "patientInfo": "We need this information so patients can identify you",
+      "welcome": "Welcome aboard!",
+      "welcomeText": "We can’t wait for you to use Playback. We’ll notify you as soon as your account is verified - it usually takes less than a day.",
+      "qrCode": "Show QR code",
+      "playbackHealth": "What is Playback Health?",
+      "qrCodeText": "Don’t want to wait? Ask a colleague with Playback to scan your QR code and activate your account immediately.",
+      "qrCodeText1": "Show your QR code to your colleague activate account.",
+      "qrCodeText2": "See, how it works?",
+      "qrCodeScreenText": "Ask your colleague to tap QR Code on their home screen",
+      "verificationText": "Verification successful! You can now start creating content for your patients and other providers to view, share, and replay.",
+      "verificationTextNorthwell": "Verification successful! Please log-in with your Northwell credentials to continue.",
+      "helpText": "Need help?",
+      "standingBy": "We’re standing by.",
+      "continueText": "Continue",
+      "congratulations": "Congratulations",
+      "filesError": "Invalid or unsupported file type"
+   },
+   "patientOnboard": {
+      "createAcc": "Create account",
+      "createAccSubtitle": "to continue to Playback Health ",
+      "enterDetails": "Enter details",
+      "enterDetailsSubtitle": "to continue to Playback Health",
+      "healthcareFacility": "Choose healthcare facility",
+      "healthcareFacilitySubtitle": "to continue to Playback Health",
+      "codeSent": "Please enter the code sent to"
+   },
+   "home": {
+      "selectchapter": "Please Select Chapter",
+      "selectvisit": "Please Select Visit",
+      "selectpatient": "Please search by patient name in left side Navigation search box"
+   },
+   "chapter": {
+      "nochaptererror": "No Chapter Found.",
+      "activatebutton": "Activate",
+      "noitemsfound": "No content in the chapter"
+   },
+   "patient": {
+      "noresultfound": "No result Found."
+   },
+   "share": {
+      "validchaptererrormsg": "Please select image/video/pdf/document for chapter.",
+      "validmediaerrmsg": "Please select valid mp4/mov media file.",
+      "validdocumenterrmsg": "Please select valid image/video/pdf/document.",
+      "titlenameerrmsg": "Please enter title.",
+      "validtitleerrmsg": "Please enter valid title",
+      "fileprocessing": "Please wait file is processing....",
+      "fileplaceholder": "Drag and drop file here or click here to select the file.",
+      "modalfilelabel": "Uploaded File",
+      "titlelabel": "e.g. Your test result review",
+      "doctorlabel": "Provider Only",
+      "previewnotsupport": "Preview not available. Browser does not support file format",
+      "texttitle": "Please enter your message title here",
+      "textdesc": "Type message here",
+      "ismedia": "Upload media",
+      "screenplaceholder": "Start screen recording.",
+      "screenrecordingstarted": "Screen recording has been started."
+   },
+   "inviteuser": {
+      "entermrn": "Please enter mrn number.",
+      "notautherror": "You are not authorize to invite patient.",
+      "mrnusernotfound": "Patient is not found with this MRN number.",
+      "validemailerror": "Please provide valid email address.",
+      "validmobileerror": "Please provide valid mobile number.",
+      "invitationsend": "Invitation has been sent successfully.",
+      "emptymobilenumber": "Please provide mobile number first.",
+      "emptyemailaddress": "Please provide email address first.",
+      "invitepatientlabel": "Invite a patient",
+      "mrnlabel": "#MRN",
+      "namelabel": "Patient Name",
+      "mobilenumberlabel": "Mobile Number",
+      "emaillabel": "Email Address",
+      "DOBLabel": "Date of Birth"
+   },
+   "providerListing": {
+      "list": "Provider List",
+      "search": "Search",
+      "ProviderName": "Provider Name",
+      "Hospital": "Hospital",
+      "Department": "Department",
+      "Connect": "Connect",
+      "PatientName": "Patient Name",
+      "dateOfBirth": "Date of birth",
+      "age": "Age",
+      "Added_On": "Added On",
+      "name": "Name",
+      "patient": "Patient",
+      "tabs": [
+         {
+            "title": "Content"
+         },
+         {
+            "title": "Patients"
+         }
+      ]
+   },
+   "patientTableHeadings": {
+      "patientNameHeading": "Patient Name",
+      "patientAgeHeading": "Age",
+      "patientDOBHeading": "Date of Birth",
+      "patientContactInfoHeading": "Contact Info",
+      "patientLastAccessedHeading": "Last Accessed",
+      "patientActionsHeading": "Actions"
+   },
+   "emptyState": {
+      "getStarted": "Let’s get started",
+      "patientDesc": "Please use the search bar on top of the page to search for patients",
+      "findMyPatient": "Find my patient",
+      "addPatient": "Add patient",
+      "noContent": "No content",
+      "noContentDesc": "Create content for the patient by tapping on the button.",
+      "contentBtn": "Create content",
+      "noCareMembers": "No members",
+      "noCareMembersDesc": "Add patient care team members to daily updates.",
+      "noFamilyMembers": "Share with family/friends",
+      "noFamilyMembersDesc": "Add patient friends/family member to daily updates.",
+      "addMembersBtn": "Add members",
+      "addContent": "Create Content",
+      "recentUpdates": "You’re all caught up! ",
+      "newCards": "New cards will be added here as they become available.",
+      "myPatients": "Let’s get started",
+      "viewed": "No recent viewed",
+      "noMissedContent": "No one missed any content",
+      "noIvites": "No one missed any content",
+      "allinvites": "All invites are acepted",
+      "emptyLibrary": "All invites are acepted",
+      "noTeam": "No Teams Found",
+      "noTeamSelected": "No team selected",
+      "noTeamMembers": "No team members",
+      "findPatient": "Tap the button below to find your patient",
+      "addPatients": "Tap the button below to add your patient",
+      "startOver": "Start Over",
+      "yourLib": "Your library is empty",
+      "addContents": "Add content",
+      "createTeamBtn": "Create team"
+   },
+   "shareFeature": {
+      "title": "Share this content with",
+      "placeholder": "Add comments...",
+      "sharedContent": "Share content on",
+      "allProviders": "All Providers",
+      "careTeamProvider": "Care Team Providers",
+      "tabs": [
+         {
+            "title": "Providers"
+         },
+         {
+            "title": "Teams"
+         }
+      ],
+      "button": [
+         {
+            "title": "Email"
+         },
+         {
+            "title": "Teams"
+         }
+      ]
+   },
+   "clinicalTeam": {
+      "placeholder": "Attending Provider",
+      "teamError": "Team name should be more than 3 letters",
+      "memberError": "Attending provider is required",
+      "permissionText": "You don't have permission",
+      "attendingPermissionText": "Atleast one attending member is required"
+   },
+   "shareContent": {
+      "contentText": "Are you sure you want share this content?"
+   }
+}

@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "playbackhealth-admin",
+    "playbackhealth ": "playbackhealth-admin",
+    "dev": "playbackplatform"
+  }
+}

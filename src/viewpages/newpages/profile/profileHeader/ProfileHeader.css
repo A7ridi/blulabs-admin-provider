@@ -1,0 +1,76 @@
+.ProfileHeader {
+  width: 100%;
+  border: var(--default-border);
+  border-color: var(--disabled-color);
+}
+.ProfileHeader .details-div > * {
+  margin-bottom: 5px;
+}
+
+.ProfileHeader .details-div .Avatar .active {
+  background: var(--state-success-color);
+}
+.ProfileHeader .details-div .Avatar .invited {
+  background: var(--primary-color);
+}
+.ProfileHeader .details-div .Avatar .pending {
+  background: var(--state-info-warning);
+}
+.ProfileHeader .details-div .Avatar .disable {
+  background: var(--gray4-color);
+}
+.ProfileHeader .details-div .patient-name-div {
+  font-size: 26px;
+}
+.ProfileHeader .details-div span {
+  color: var(--black1-color);
+}
+.ProfileHeader .details-div .detail {
+  font-size: 15px;
+  color: rgb(150, 150, 150);
+}
+
+.ProfileHeader .actions-div {
+  font-size: min(50%, 14px);
+  white-space: nowrap;
+  text-align: center;
+  height: 36px;
+}
+.ProfileHeader .actions-div > * {
+  margin-bottom: 5px;
+}
+.ProfileHeader .actions-div .follow {
+  width: 30%;
+  max-width: 80px;
+}
+.ProfileHeader .actions-div .content {
+  width: 50%;
+  max-width: 150px;
+}
+.ProfileHeader .actions-div .menu {
+  width: 50px;
+}
+.ProfileHeader .actions-div .dropdown-item {
+  width: 200px;
+  color: #4f4f4f;
+  font-size: 14px;
+}
+.ProfileHeader .location-div {
+  background: rgba(224, 224, 224, 0.3);
+  height: 33px;
+  color: var(--gray3-color);
+}
+.ProfileHeader .loading-shade::after {
+  animation-delay: 0.5;
+}
+.follow-div {
+  width: 608px;
+}
+.follow-div li {
+  width: 343px;
+  height: 50px;
+}
+
+.loader-search-page {
+  width: 20px;
+}

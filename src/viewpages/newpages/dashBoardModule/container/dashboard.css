@@ -1,0 +1,320 @@
+.div-main-drag {
+   padding: 20px;
+   height: 100%;
+   overflow-y: scroll !important;
+   overflow-x: hidden;
+   padding-bottom: 70px;
+}
+.graph-legends {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 20px;
+
+   color: #000000;
+}
+.responsive-graphs {
+   height: 400px;
+}
+.color-div {
+   display: inline-block;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   margin-right: 5px;
+   margin-left: 15px;
+}
+.remind-div {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 23px;
+   /* identical to box height, or 177% */
+
+   text-align: center;
+
+   /* Click */
+
+   color: #528df6;
+   cursor: pointer;
+}
+.send-all-dash {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 23px;
+   /* identical to box height, or 177% */
+
+   text-align: right;
+
+   /* Playback */
+
+   color: #ff567a;
+   cursor: pointer;
+}
+.div-dropppable {
+   font-size: 20px;
+   padding: 5px;
+   /* padding: 10px; */
+}
+.title-api {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 136.02%;
+   /* or 20px */
+
+   color: #000000;
+}
+.subtitle-api {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 23px;
+
+   color: #8c8c8c;
+}
+.child-title-api {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 23px;
+
+   color: #8c8c8c;
+}
+
+.main-div-cards-listing-dash {
+   height: 380px;
+   overflow-y: scroll;
+   /* padding-top: 15px; */
+}
+.main-div-cards-listing-dash::-webkit-scrollbar {
+   background: #e0e0e0;
+   border-radius: 9px;
+   width: 4px;
+}
+.main-div-cards-listing-dash::-webkit-scrollbar-track {
+   background: white;
+   border-radius: 9px;
+}
+
+.main-div-cards-listing-dash::-webkit-scrollbar-thumb {
+   background: #e0e0e0;
+   border-radius: 9px;
+   width: 4px;
+}
+
+.main-div-cards-listing-missedContent {
+   height: 380px;
+   overflow-y: auto;
+   /* padding-top: 15px; */
+}
+.main-div-cards-listing-missedContent::-webkit-scrollbar {
+   background: #e0e0e0;
+   border-radius: 9px;
+   width: 4px;
+}
+.main-div-cards-listing-missedContent::-webkit-scrollbar-track {
+   background: white;
+   border-radius: 9px;
+}
+
+.main-div-cards-listing-missedContent::-webkit-scrollbar-thumb {
+   background: #e0e0e0;
+   border-radius: 9px;
+   width: 4px;
+}
+
+.each-card-patient-list {
+   margin-right: 10px;
+   margin-top: 5px;
+   margin-left: 1px;
+   margin-bottom: 10px;
+   box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+
+   background: #ffffff;
+   border-radius: 10px;
+   padding: 10px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.each-card-patient-missed {
+   margin-right: 10px;
+   margin-top: 5px;
+   margin-bottom: 10px;
+   margin-left: 1px;
+   box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+   filter: drop-shadow(0px 0px 1px rgba(12, 26, 75, 0.24));
+
+   background: #ffffff;
+   border-radius: 10px;
+   padding: 10px;
+   /* padding-top: 15px;
+   padding-bottom: 15px; */
+}
+.main-title-dashboard {
+   padding: 10px;
+   padding-bottom: 20px;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 25px;
+
+   color: #000000;
+}
+.div-inside {
+   background: #ffffff;
+   /* cool */
+
+   box-shadow: 0px 0px 1px rgba(12, 26, 75, 0.24), 0px 3px 8px -1px rgba(50, 50, 71, 0.05);
+   border-radius: 30px;
+
+   transition: 0.3s;
+   padding: 20px;
+   padding-bottom: 0px;
+   height: 100%;
+   /* overflow-x: scroll !important; */
+}
+.div-inside::-webkit-scrollbar {
+   width: 0px;
+}
+.div-inside::-webkit-scrollbar-thumb {
+   width: 0px;
+}
+.cards-stack-effect {
+   background: linear-gradient(63.28deg, #003ca5 -2.53%, rgba(255, 255, 255, 0) 127.32%);
+   border-radius: 15px;
+   transform: rotate(1.09deg);
+   position: absolute;
+   z-index: 0;
+   height: 95%;
+   width: 98%;
+   left: 10px;
+   top: 10px;
+}
+
+.div-cards-scroll-recent {
+   background: #ffffff;
+   transition: 0.3s;
+   overflow-x: scroll !important;
+   margin-bottom: -10px;
+}
+.div-cards-scroll-recent::-webkit-scrollbar {
+   width: 0px;
+}
+.div-cards-scroll-recent::-webkit-scrollbar-thumb {
+   width: 0px;
+}
+.div-absolute-title {
+   width: 100%;
+   background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.0291667) 92.71%,
+      rgba(255, 255, 255, 0) 100%
+   );
+   border-radius: 15px 15px 0px 0px;
+   position: absolute;
+   backdrop-filter: blur(3px);
+   z-index: 9999;
+   padding-top: 13px;
+   padding-bottom: 13px;
+   padding-left: 15px;
+}
+
+.div-cards-title-api {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 21px;
+   padding-bottom: 15px;
+   line-height: 25px;
+   /* identical to box height, or 119% */
+
+   color: #000000;
+}
+.select-custom {
+   margin-top: 0px !important;
+   width: 110px;
+   font-size: 12px;
+   border: 1px solid #ccc;
+   height: 24px;
+}
+.absolute-arrow-right {
+   position: absolute;
+   right: 1px;
+   /* background-color: red; */
+   z-index: 999999999999999999999999999999999999999;
+   font-size: 100px;
+   top: 120px;
+}
+.img-arrow-recent {
+   width: 60px !important;
+   height: 60px;
+   cursor: pointer;
+}
+.loading-shade-max {
+   /* background: rgba(255, 255, 255, 0.28); */
+   background: rgba(118, 118, 128, 0.12);
+   border-radius: 8px;
+   overflow: hidden !important;
+   padding: 25px;
+   width: 96%;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.loading-shade-max::after {
+   content: "";
+   position: absolute;
+   width: 30%;
+   max-width: 60px;
+   height: 200%;
+   background: rgba(118, 118, 128, 0.12);
+   /* background-color: #fafafa; */
+   top: -50%;
+   left: 0;
+   z-index: 3;
+   transform: rotate(20deg);
+   animation: shadeanim 1.2s ease-in-out infinite;
+   opacity: 1;
+   filter: blur(45px);
+}
+.post-dashboard {
+   width: 350px !important;
+}
+.post-dashboard-modal {
+   width: 900px !important;
+   height: 600px !important;
+}
+.sub-head-empty-recent {
+   /* padding-top: 10px; */
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 22px;
+   /* or 129% */
+
+   text-align: center;
+
+   color: #000000;
+}
+.start-over {
+   padding-top: 10px;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 136.02%;
+   /* or 23px */
+
+   text-align: center;
+   text-decoration-line: underline;
+
+   /* Primary Blue */
+
+   color: #043293;
+}
+
+.div-empty-main-recent {
+   text-align: center;
+   /* margin-top: -40px; */
+}
+.div-main-container-empty-state {
+}

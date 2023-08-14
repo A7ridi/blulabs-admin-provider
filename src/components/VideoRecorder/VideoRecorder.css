@@ -1,0 +1,68 @@
+.VideoRecorder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideoRecorder > .close {
+  z-index: 12;
+  position: absolute;
+  color: white;
+  opacity: 1;
+  height: 30px;
+  width: 30px;
+  right: 15px;
+  top: 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideoRecorder .controls {
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  bottom: 10px;
+}
+
+.VideoRecorder .PlayPauseButton {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(233, 72, 101, 0.8);
+}
+
+.VideoRecorder .PlayPauseButton .inner-div {
+  width: 80%;
+  height: 80%;
+  /* background-color: white; */
+  background: #dd6b7f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VideoRecorder .video-tag {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.VideoRecorder > .controls> .PlayPauseButton > .inner-div > img {
+  width: 15px;
+  height: 15px;
+}

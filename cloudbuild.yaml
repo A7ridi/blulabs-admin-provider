@@ -1,0 +1,55 @@
+steps:
+   # Remove package-lock.json
+   - name: "gcr.io/cloud-builders/gcloud"
+     entrypoint: bash
+     args:
+        - "-c"
+        - |
+           rm -rf package-lock.json
+           ls -l
+
+   # install the client dependencies
+   - name: "gcr.io/cloud-builders/npm"
+     args: ["install"]
+
+   #   - name: node:14.15.5
+   #     entrypoint: npm
+   #     args: ["install"]
+
+   # copy SAML file to public folder
+   - name: "gcr.io/cloud-builders/gsutil"
+     args: ["cp", "${_SAML_PAGE}", "public/northwell-saml-test.html"]
+
+   # build firebase admin
+   - name: "gcr.io/cloud-builders/npm"
+     env:
+        [
+           "REACT_APP_SECRET=${_REACT_APP_SECRET}",
+           "REACT_APP_URL=${_REACT_APP_URL}",
+           "REACT_APP_FIREBASEAPIKEY=${_REACT_APP_FIREBASEAPIKEY}",
+           "REACT_APP_FIREBASEAUTHDOMAIN=${_REACT_APP_FIREBASEAUTHDOMAIN}",
+           "REACT_APP_FIREBASEAUTHPROVIDER=${_REACT_APP_FIREBASEAUTHPROVIDER}",
+           "REACT_APP_STORAGEBUCKET=${_REACT_APP_STORAGEBUCKET}",
+           "REACT_APP_BASEURL=${_REACT_APP_BASEURL}",
+           "TWILIO_ACCOUNT_SID=${_TWILIO_ACCOUNT_SID}",
+           "TWILIO_API_KEY=${_TWILIO_API_KEY}",
+           "TWILIO_API_SECRET=${_TWILIO_API_SECRET}",
+           "REACT_APP_FIREBASEPROJECTID=${_REACT_APP_FIREBASEPROJECTID}",
+           "REACT_APP_SUPERADMINURL=${_REACT_APP_SUPERADMINURL}",
+           "REACT_APP_DATADOG_APPLICATION_ID=${_REACT_APP_DATADOG_APPLICATION_ID}",
+           "REACT_APP_DATADOG_CLIENT_ID=${_REACT_APP_DATADOG_CLIENT_ID}",
+           "REACT_APP_AWS_PINPOINT_APPLICATION_ID=${_REACT_APP_AWS_PINPOINT_APPLICATION_ID}",
+           "REACT_APP_AWS_REGION=${_REACT_APP_AWS_REGION}",
+           "REACT_APP_AWS_COGNITO_POOL_ID=${_REACT_APP_AWS_COGNITO_POOL_ID}",
+           "REACT_APP_SOCKET_URL=${_REACT_APP_SOCKET_URL}",
+           "REACT_APP_PROFILE_URL=${_REACT_APP_PROFILE_URL}",
+           "REACT_APP_OLD_PORTAL_URL=${_REACT_APP_OLD_PORTAL_URL}",
+           "REACT_APP_LAUNCH_DARKLY_CLIENT_ID=${_REACT_APP_LAUNCH_DARKLY_CLIENT_ID}",
+           "NODE_ENV=${_NODE_ENV}",
+           "GENERATE_SOURCEMAP=${_GENERATE_SOURCEMAP}",
+        ]
+     args: ["run", "build"]
+
+   # Deploy admin to firebase
+   - name: "gcr.io/$PROJECT_ID/firebase"
+     args: ["deploy", "--project", "${_PROJECT_ID}", "--token", "${_FIREBASE_TOKEN}"]

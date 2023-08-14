@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.input-search-vertical:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #495057;
+}
+.input-search-vertical::placeholder {
+  color: #495057;
+  opacity: 1; /* Firefox */
+}
+.input-search-vertical::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #495057;
+}
+.select-compoennt-custom {
+  font-family: "sfProTextRegular", sans-serif;
+  font-family: "sfProTextRegular", "Poppins";
+  color: #495057 !important;
+  font-size: 14px !important;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.color {
+  color: red;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.onBoardingProvider {
+  font-size: 18px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.scrollbar-black::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #8c8c8c;
+  border-radius: 6px;
+}
+
+.scrollbar-black::-webkit-scrollbar {
+  width: 3px;
+  height: 2px;
+  background-color: #8c8c8c;
+}
+
+.scrollbar-black::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #000;
+}
+
+.scrollbar-black {
+  scrollbar-color: #000 #8c8c8c;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

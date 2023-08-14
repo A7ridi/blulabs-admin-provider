@@ -1,0 +1,186 @@
+html {
+  background: #e5e5e5;
+  z-index: 2;
+}
+
+.AddDetailsView {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  z-index: 111;
+  background: #e5e5e5;
+}
+
+.AddDetailsView .StatusView {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.AddDetailsView,
+.AddDetailsView .login-box,
+.AddDetailsView .flex-div,
+.AddDetailsView .fields-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AddDetailsView .login-content {
+  margin-top: 70px;
+  /* background-color: rebeccapurple; */
+  max-width: 700px;
+}
+
+.AddDetailsView .login-box {
+  position: relative;
+  justify-content: start;
+  margin-bottom: 30px;
+}
+
+.AddDetailsView #title-heading {
+  color: black;
+  text-align: center;
+}
+
+.AddDetailsView #profile-pic-div {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  margin-top: 30px;
+}
+
+.AddDetailsView #profile-pic-div > input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.AddDetailsView #profile-pic-div .text-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: var(--theme-color-second);
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+}
+
+.AddDetailsView #profile-pic-div .selected-image-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.AddDetailsView #profile-pic-div .cam-icon,
+.AddDetailsView #profile-pic-div .clear-image {
+  position: absolute;
+  padding: 5px;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.AddDetailsView #profile-pic-div .cam-icon {
+  background-color: var(--theme-color-second);
+  bottom: 0;
+  right: 5px;
+}
+
+.AddDetailsView #profile-pic-div .clear-image {
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  top: 0;
+  right: 5px;
+  z-index: 2;
+  font-size: large;
+  user-select: none;
+  line-height: 100%;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddDetailsView .fields-div {
+  position: relative;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.AddDetailsView .login-box .form-group {
+  margin-bottom: 0 !important;
+}
+
+.AddDetailsView .flex-div {
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-top: 8px; */
+}
+
+.AddDetailsView .Field {
+  flex: 1 1 300px;
+  margin: 0 10px;
+}
+
+.AddDetailsView .login-box #password-form-group {
+  height: 35px;
+}
+
+.AddDetailsView .Field input {
+  font-size: 14px;
+}
+
+.AddDetailsView .Field > label {
+  /* height: 18px; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 11px;
+
+  display: flex;
+  align-items: center;
+}
+.AddDetailsView .Field > .status-label {
+  margin-top: 5px;
+  min-height: 20px;
+  font-size: 12px;
+  color: #ff5733;
+}
+
+.AddDetailsView .department-select {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border: none !important;
+}
+
+.css-2b097c-container div.css-yk16xz-control,
+div.css-yk16xz-control:hover,
+div.css-1pahdxg-control:hover {
+  border: 1px solid #ced4da !important;
+}
+
+.AddDetailsView .save-button {
+  width: 150px;
+  height: 45px;
+  margin-top: 40px;
+  font-size: 16px;
+}

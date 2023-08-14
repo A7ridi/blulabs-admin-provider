@@ -1,0 +1,37 @@
+.PatientDetailsView .details-div {
+   margin-left: 15px;
+   flex-grow: 1;
+}
+.PatientDetailsView .name {
+   font-size: 17px;
+   max-width: 100%;
+   display: inline-block;
+   /* flex-grow: 1; */
+}
+.PatientDetailsView .libDocName {
+   font-size: 14px;
+   max-width: 100%;
+   display: inline-block;
+   /* flex-grow: 1; */
+}
+.PatientDetailsView :is(.title-div, .value-div) {
+   color: rgb(150, 150, 150);
+   font-size: 12px;
+}
+
+.PatientDetailsView :is(.profile-title-div, .profile-value-div) {
+   /* color: #ffffff; */
+   font-size: 12px;
+}
+.PatientDetailsView .value-div {
+   margin-left: 5px;
+}
+
+.first-letter-cap:first-letter {
+   text-transform: capitalize;
+}
+.text-truncate-custom {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}

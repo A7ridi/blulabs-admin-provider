@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>icon-screen-record</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-screen-record">
+            <circle id="Oval" fill="#009ADF" cx="25" cy="25" r="25"></circle>
+            <circle id="Oval" fill="#FFFFFF" cx="24.5" cy="25.5" r="8.5"></circle>
+            <path d="M25,13 C18.36,13 13,18.36 13,25 C13,31.64 18.36,37 25,37 C31.64,37 37,31.64 37,25 C37,18.36 31.64,13 25,13 Z M31.5905707,25.6834981 L22.2282878,30.8885987 C21.6823821,31.2040594 21,30.8097336 21,30.2051007 L21,19.7948993 C21,19.1902664 21.6823821,18.7959406 22.2282878,19.1114013 L31.5905707,24.3165019 C32.1364764,24.6319626 32.1364764,25.3680374 31.5905707,25.6834981 Z" id="Shape" fill="#009ADF" fill-rule="nonzero"></path>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="11" y="15" width="28" height="20" rx="5"></rect>
+        </g>
+    </g>
+</svg>

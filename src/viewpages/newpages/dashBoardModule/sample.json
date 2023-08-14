@@ -1,0 +1,84 @@
+[
+    {
+        "type": "list",
+        "title": "Recent Patient",
+        "layout": {
+            "type": "vertical"
+        },
+        "data": {
+            "action": "recentPatients"
+        },
+        "subsitutions": {
+            "fiels1": "patientName",
+            "field2": "patientDOB"
+        }
+    },
+    {
+        "type": "numbers",
+        "data": {
+            "action": "invitations"
+        }
+    },
+    {
+        "type": "graph",
+        "data": {
+            "action": "invitations"
+        }
+    },
+    {
+        "type": "cards",
+        "data": {
+            "action": "mypatientrecentupdates"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": "part4 or part8 or part12"
+        },
+        "subsitutions": {
+            "fiels1": "patientName",
+            "field2": "contentTitle",
+            "field3": "createdBy",
+            "field4": "createdDate",
+            "field5": "image"
+        },
+        "actions": [
+            {
+                "type": "fullCard",
+                "action": "playbackMedia"
+            }
+        ]
+    },
+    {
+        "type": "cards",
+        "data": {
+            "action": "mypatientrecentupdates"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": "part4 or part8 or part12"
+        },
+        "subsitutions": {
+            "field2": "contentTitle",
+            "field3": "createdBy",
+            "field4": "createdDate",
+            "field5": "image"
+        },
+        "actions": [
+            {
+                "type": "like"
+            },
+            {
+                "type": "options"
+            },
+            {
+                "type": "views"
+            },
+            {
+                "type": "fullCard",
+                "action": "playbackMedia"
+            }
+        ]
+    }
+]

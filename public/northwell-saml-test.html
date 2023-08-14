@@ -1,0 +1,61 @@
+<script src="https://www.gstatic.com/firebasejs/9.9.2/firebase.js"></script>
+
+<script>
+   var config = {
+      apiKey: "AIzaSyCAdK2GTHooq2--OQruQp6CxbAjJy1OelE",
+      authDomain: "playbackprod.firebaseapp.com",
+   };
+
+   firebase.initializeApp(config);
+   const provider = new firebase.auth.SAMLAuthProvider("saml.northwell");
+
+   function login() {
+      window.localStorage.setItem("isPBCSamlLoginDone", true);
+      firebase
+         .auth()
+         .signInWithRedirect(provider)
+         .then((result) => {
+            document.getElementById("demo").innerHTML = result.user.getIdTokenResult();
+            // User is signed in.
+            // Identity provider data available in result.additionalUserInfo.profile,
+            // or from the user's ID token obtained via result.user.getIdToken()
+            // as an object in the firebase.sign_in_attributes custom claim
+            // This is also available via result.user.getIdTokenResult()
+            // idTokenResult.claims.firebase.sign_in_attributes.
+         })
+         .catch((error) => {
+            window.localStorage.setItem("isPBCSamlLoginDone", false);
+            // Handle error.
+         });
+   }
+
+   // On return.
+   firebase
+      .auth()
+      .getRedirectResult()
+      .then((result) => {
+         document.getElementById("demo").innerHTML = JSON.stringify(result);
+         if (result.user) {
+            document.getElementById("msg").innerHTML = "Redirecting to Playback...";
+         }
+         // document.getElementById("demo2").innerHTML = result.user.getIdTokenResult().claims.firebase.sign_in_attributes
+         // User is signed in.
+         // Identity provider data available in result.additionalUserInfo.profile,
+         // or from the user's ID token obtained via result.user.getIdToken()
+         // as an object in the firebase.sign_in_attributes custom claim
+         // This is also available via result.user.getIdTokenResult()
+         // idTokenResult.claims.firebase.sign_in_attributes.
+      })
+      .catch((error) => {
+         window.localStorage.setItem("isPBCSamlLoginDone", false);
+         // Handle error.
+      });
+
+   let alreadyLoggedin = window.localStorage.getItem("isPBCSamlLoginDone");
+   if (!alreadyLoggedin) {
+      login();
+   }
+</script>
+
+<p style="text-align: center; margin-top: 25%; font-size: 2rem" id="msg">Please wait while page is loading.....</p>
+<p style="display: none" id="demo"></p>

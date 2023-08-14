@@ -1,0 +1,108 @@
+.AudioRecorder {
+  box-sizing: border-box;
+  position: relative;
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AudioRecorder .close {
+  position: absolute;
+  color: white;
+  opacity: 1;
+  height: 30px;
+  width: 30px;
+  right: 15px;
+  top: 15px;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AudioRecorder  .PlayPauseButton {
+  cursor: pointer;
+  /* position: absolute; */
+  width: 60px;
+  height: 60px;
+  background-color: lightgray;
+  border-radius: 50%;
+  bottom: 10px;
+  box-shadow: 0px 0px 15px rgba(233, 72, 101, 0.8);
+}
+
+.AudioRecorder  .PlayPauseButton,
+.AudioRecorder  .PlayPauseButton > .inner-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AudioRecorder  .PlayPauseButton > .inner-div {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.AudioRecorder  .PlayPauseButton > .inner-div > img {
+  width: 14px;
+  height: 19px;
+}
+
+.AudioRecorder > .play-button-active {
+  /* position: relative; */
+  width: 90px;
+  height: 90px;
+}
+
+.animate-max {
+  animation: div-animate-max 2s infinite;
+  -webkit-animation: div-animate-max 2s infinite;
+  -moz-animation: div-animate-max 2s infinite;
+}
+
+.animate-min {
+  animation: div-animate-min 2s infinite;
+  -webkit-animation: div-animate-min 2s infinite;
+  -moz-animation: div-animate-min 2s infinite;
+}
+
+@keyframes div-animate-max {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes div-animate-min {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.controls label {
+  margin-top: 20px;
+}
+
+#time-label {
+  color: white;
+  font-weight: 500;
+}

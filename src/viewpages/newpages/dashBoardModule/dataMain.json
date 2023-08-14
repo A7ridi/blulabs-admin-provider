@@ -1,0 +1,381 @@
+[
+    {
+        "id": "recentUpdates",
+        "type": "cards",
+        "data": {
+            "action": "mypatientrecentupdates"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 12
+        },
+        "subsitutions": {
+            "title": "Recent Updates",
+            "field2": "contentTitle",
+            "field3": "createdBy",
+            "field4": "createdDate",
+            "field5": "image"
+        },
+        "actions": [
+            {
+                "type": "like"
+            },
+            {
+                "type": "title"
+            },
+            {
+                "type": "options"
+            },
+            {
+                "type": "fullCard"
+            },
+            {
+                "type": "views"
+            }
+        ],
+        "dataCards": [
+            {
+                "id": "03747007-7e52-4a38-8325-200cc3c12019",
+                "userId": "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                "addedBy": "IIDcs2KUvMQneU6SDhzorwFA0Bq2",
+                "fileName": "mpeg",
+                "description": "",
+                "location": "document_03747007-7e52-4a38-8325-200cc3c12019.mp3",
+                "type": "media",
+                "title": "Audio update from Manisha Provider, NP ",
+                "uploadStatus": "success",
+                "isDoctorsOnly": false,
+                "lastUpdate": "1645183624",
+                "createdAt": "2022-02-18T11:27:03.842Z",
+                "updatedAt": "1645447792",
+                "isDisabled": false,
+                "tags": [],
+                "mentions": [],
+                "enterpriseId": "632a997e-f437-4e7c-8ce9-eff26c38a639",
+                "printEnable": false,
+                "isThumbnail": true,
+                "hospitalId": "59628c48-f7a8-4c5e-ada1-eda6b9f30917",
+                "departmentId": "d7173807-ddfb-4bbe-bae1-81408f6a82fe",
+                "hospitalName": "Kansas Hospital",
+                "departmentName": "NEUROSURGERY",
+                "addedByName": "Manisha Provider, NP",
+                "sortBy": 1645183623844,
+                "fileType": "audio/m4a",
+                "thumbnail": "thumb-document_03747007-7e52-4a38-8325-200cc3c12019.jpg",
+                "thanks": [],
+                "likes": [],
+                "loves": [],
+                "isPatientViewed": false,
+                "isProviderViewed": false,
+                "views": [
+                    "IIDcs2KUvMQneU6SDhzorwFA0Bq2"
+                ]
+            },
+            {
+                "id": "a19b7cc2-2442-47c0-9e4b-ee7e723696c3",
+                "userId": "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                "addedBy": "IIDcs2KUvMQneU6SDhzorwFA0Bq2",
+                "fileName": "Image-1645010641630.jpeg",
+                "description": "",
+                "location": "document_a19b7cc2-2442-47c0-9e4b-ee7e723696c3.jpeg",
+                "type": "media",
+                "title": "Image update from Manisha Provider, NP",
+                "uploadStatus": "success",
+                "isDoctorsOnly": false,
+                "lastUpdate": "1645010645",
+                "createdAt": "2022-02-16T11:24:04.734Z",
+                "updatedAt": "1645011039",
+                "isDisabled": false,
+                "tags": [],
+                "mentions": [],
+                "enterpriseId": "632a997e-f437-4e7c-8ce9-eff26c38a639",
+                "printEnable": false,
+                "isThumbnail": true,
+                "hospitalId": "59628c48-f7a8-4c5e-ada1-eda6b9f30917",
+                "departmentId": "d7173807-ddfb-4bbe-bae1-81408f6a82fe",
+                "hospitalName": "Kansas Hospital",
+                "departmentName": "NEUROSURGERY",
+                "addedByName": "Manisha Provider, NP",
+                "sortBy": 1645010644741,
+                "fileType": "image/jpeg",
+                "thumbnail": "thumb-document_a19b7cc2-2442-47c0-9e4b-ee7e723696c3.jpg",
+                "thanks": [],
+                "likes": [],
+                "loves": [],
+                "isPatientViewed": true,
+                "isProviderViewed": false,
+                "views": [
+                    "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                    "IIDcs2KUvMQneU6SDhzorwFA0Bq2"
+                ]
+            },
+            {
+                "id": "09ff1990-9a8a-427d-bb18-1ba76d75e1ba",
+                "userId": "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                "addedBy": "IIDcs2KUvMQneU6SDhzorwFA0Bq2",
+                "fileName": "Image-1645010012639.jpeg",
+                "description": "",
+                "location": "document_09ff1990-9a8a-427d-bb18-1ba76d75e1ba.jpeg",
+                "type": "media",
+                "title": "Image update from Manisha Provider, NP",
+                "uploadStatus": "success",
+                "isDoctorsOnly": false,
+                "lastUpdate": "1645010016",
+                "createdAt": "2022-02-16T11:13:35.668Z",
+                "updatedAt": "1645010229",
+                "isDisabled": false,
+                "tags": [],
+                "mentions": [],
+                "enterpriseId": "632a997e-f437-4e7c-8ce9-eff26c38a639",
+                "printEnable": false,
+                "isThumbnail": true,
+                "hospitalId": "59628c48-f7a8-4c5e-ada1-eda6b9f30917",
+                "departmentId": "d7173807-ddfb-4bbe-bae1-81408f6a82fe",
+                "hospitalName": "Kansas Hospital",
+                "departmentName": "NEUROSURGERY",
+                "addedByName": "Manisha Provider, NP",
+                "sortBy": 1645010015669,
+                "fileType": "image/jpeg",
+                "thumbnail": "thumb-document_09ff1990-9a8a-427d-bb18-1ba76d75e1ba.jpg",
+                "thanks": [],
+                "likes": [],
+                "loves": [],
+                "isPatientViewed": false,
+                "isProviderViewed": false,
+                "views": []
+            },
+            {
+                "id": "03747007-7e52-4a38-8325-200cc3c12019",
+                "userId": "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                "addedBy": "IIDcs2KUvMQneU6SDhzorwFA0Bq2",
+                "fileName": "mpeg",
+                "description": "",
+                "location": "document_03747007-7e52-4a38-8325-200cc3c12019.mp3",
+                "type": "media",
+                "title": "Audio update from Manisha Provider, NP ",
+                "uploadStatus": "success",
+                "isDoctorsOnly": false,
+                "lastUpdate": "1645183624",
+                "createdAt": "2022-02-18T11:27:03.842Z",
+                "updatedAt": "1645447792",
+                "isDisabled": false,
+                "tags": [],
+                "mentions": [],
+                "enterpriseId": "632a997e-f437-4e7c-8ce9-eff26c38a639",
+                "printEnable": false,
+                "isThumbnail": true,
+                "hospitalId": "59628c48-f7a8-4c5e-ada1-eda6b9f30917",
+                "departmentId": "d7173807-ddfb-4bbe-bae1-81408f6a82fe",
+                "hospitalName": "Kansas Hospital",
+                "departmentName": "NEUROSURGERY",
+                "addedByName": "Manisha Provider, NP",
+                "sortBy": 1645183623844,
+                "fileType": "audio/m4a",
+                "thumbnail": "thumb-document_03747007-7e52-4a38-8325-200cc3c12019.jpg",
+                "thanks": [],
+                "likes": [],
+                "loves": [],
+                "isPatientViewed": false,
+                "isProviderViewed": false,
+                "views": [
+                    "IIDcs2KUvMQneU6SDhzorwFA0Bq2"
+                ]
+            },
+            {
+                "id": "a19b7cc2-2442-47c0-9e4b-ee7e723696c3",
+                "userId": "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                "addedBy": "IIDcs2KUvMQneU6SDhzorwFA0Bq2",
+                "fileName": "Image-1645010641630.jpeg",
+                "description": "",
+                "location": "document_a19b7cc2-2442-47c0-9e4b-ee7e723696c3.jpeg",
+                "type": "media",
+                "title": "Image update from Manisha Provider, NP",
+                "uploadStatus": "success",
+                "isDoctorsOnly": false,
+                "lastUpdate": "1645010645",
+                "createdAt": "2022-02-16T11:24:04.734Z",
+                "updatedAt": "1645011039",
+                "isDisabled": false,
+                "tags": [],
+                "mentions": [],
+                "enterpriseId": "632a997e-f437-4e7c-8ce9-eff26c38a639",
+                "printEnable": false,
+                "isThumbnail": true,
+                "hospitalId": "59628c48-f7a8-4c5e-ada1-eda6b9f30917",
+                "departmentId": "d7173807-ddfb-4bbe-bae1-81408f6a82fe",
+                "hospitalName": "Kansas Hospital",
+                "departmentName": "NEUROSURGERY",
+                "addedByName": "Manisha Provider, NP",
+                "sortBy": 1645010644741,
+                "fileType": "image/jpeg",
+                "thumbnail": "thumb-document_a19b7cc2-2442-47c0-9e4b-ee7e723696c3.jpg",
+                "thanks": [],
+                "likes": [],
+                "loves": [],
+                "isPatientViewed": true,
+                "isProviderViewed": false,
+                "views": [
+                    "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                    "IIDcs2KUvMQneU6SDhzorwFA0Bq2"
+                ]
+            },
+            {
+                "id": "09ff1990-9a8a-427d-bb18-1ba76d75e1ba",
+                "userId": "tYLrQpr10QQqpb8LmmOHGdnl7423",
+                "addedBy": "IIDcs2KUvMQneU6SDhzorwFA0Bq2",
+                "fileName": "Image-1645010012639.jpeg",
+                "description": "",
+                "location": "document_09ff1990-9a8a-427d-bb18-1ba76d75e1ba.jpeg",
+                "type": "media",
+                "title": "Image update from Manisha Provider, NP",
+                "uploadStatus": "success",
+                "isDoctorsOnly": false,
+                "lastUpdate": "1645010016",
+                "createdAt": "2022-02-16T11:13:35.668Z",
+                "updatedAt": "1645010229",
+                "isDisabled": false,
+                "tags": [],
+                "mentions": [],
+                "enterpriseId": "632a997e-f437-4e7c-8ce9-eff26c38a639",
+                "printEnable": false,
+                "isThumbnail": true,
+                "hospitalId": "59628c48-f7a8-4c5e-ada1-eda6b9f30917",
+                "departmentId": "d7173807-ddfb-4bbe-bae1-81408f6a82fe",
+                "hospitalName": "Kansas Hospital",
+                "departmentName": "NEUROSURGERY",
+                "addedByName": "Manisha Provider, NP",
+                "sortBy": 1645010015669,
+                "fileType": "image/jpeg",
+                "thumbnail": "thumb-document_09ff1990-9a8a-427d-bb18-1ba76d75e1ba.jpg",
+                "thanks": [],
+                "likes": [],
+                "loves": [],
+                "isPatientViewed": false,
+                "isProviderViewed": false,
+                "views": []
+            }
+        ]
+    },
+    {
+        "id": "myPatients",
+        "type": "cards",
+        "data": {
+            "action": "mypatientList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 4
+        },
+        "subsitutions": {
+            "title": "My patients"
+        }
+    },
+    {
+        "id": "viewedPatients",
+        "type": "cards",
+        "data": {
+            "action": "viewedpatientList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 4
+        },
+        "subsitutions": {
+            "title": "Viewed"
+        }
+    },
+    {
+        "id": "missedContent",
+        "type": "cards",
+        "data": {
+            "action": "patientMissedList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 4
+        },
+        "subsitutions": {
+            "title": "Patient missed content"
+        },
+        "actions": [
+            {
+                "type": "send"
+            },
+            {
+                "type": "remind"
+            }
+        ]
+    },
+    {
+        "id": "resendInvite",
+        "type": "cards",
+        "data": {
+            "action": "patientResendList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 4
+        },
+        "subsitutions": {
+            "title": "Resend Invite"
+        },
+        "actions": [
+            {
+                "type": "send"
+            },
+            {
+                "type": "resend"
+            }
+        ]
+    },
+    {
+        "id": "library",
+        "type": "cards",
+        "data": {
+            "action": "libraryList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 4
+        },
+        "subsitutions": {
+            "title": "Library"
+        }
+    },
+    {
+        "id": "barChart",
+        "type": "cards",
+        "data": {
+            "action": "barList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 8
+        },
+        "subsitutions": {
+            "title": "Patients"
+        }
+    },
+    {
+        "id": "lineChart",
+        "type": "cards",
+        "data": {
+            "action": "contentList"
+        },
+        "layout": {
+            "type": "horizontal",
+            "itemSize": "medium",
+            "size": 4
+        },
+        "subsitutions": {
+            "title": "Content"
+        }
+    }
+]

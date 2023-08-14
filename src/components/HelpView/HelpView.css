@@ -1,0 +1,235 @@
+.HelpView {
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  overflow-y: hidden;
+}
+
+.HelpView .help-container {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 380px;
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: run 0.2s linear;
+  -webkit-animation: run 0.2s linear;
+}
+
+.HelpView .help-container #close-help-view {
+  position: absolute;
+  right: 16px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.HelpView .pl-4,
+.HelpView .px-4 {
+  line-height: 0 !important;
+  padding-left: 20px !important;
+}
+
+.HelpView .help-container > h2,
+.HelpView .help-container .pl-4 .px-4 {
+  margin-top: 18px;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 30px;
+  line-height: normal;
+}
+.HelpView .help-container .scroll-container {
+  flex: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.HelpView .help-container .scroll-container > p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.HelpView .help-container .question-div {
+  /* padding: 10px; */
+  /* box-shadow: 0 0 5px rgba(211, 211, 211, 0.801); */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.HelpView .help-container .question-div textarea {
+  border: 1px solid rgba(211, 211, 211, 0.527);
+  border-radius: 15px;
+  padding: 10px;
+  height: 100px;
+  resize: none;
+  font-size: 14px;
+}
+
+.HelpView .help-container .question-div label {
+  text-align: right;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  color: darkgray;
+}
+
+.HelpView .help-container .question-div .button-skeleton span span {
+  position: absolute;
+  height: 45px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.HelpView .help-container .question-div button {
+  position: relative;
+  align-self: flex-end;
+  border: none;
+  /* background-color: grey; */
+  background-color: #2680bc;
+  color: white;
+  margin-top: 20px;
+  height: 32px;
+  width: 80px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.HelpView .help-container .question-div button:disabled {
+  background-color: #2680bc7c;
+}
+
+/* .HelpView .help-container .faq-div {
+  height: auto;
+} */
+.HelpView .help-container .faq-div {
+  width: 100%;
+  height: 300px;
+  font-size: 30px;
+  margin-left: 5px;
+  text-align: center;
+  color: lightgray;
+  line-height: 1.2;
+}
+
+.HelpView .help-container #faq-text {
+  height: 21px;
+  color: #2e3134;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: left;
+}
+
+.HelpView .help-container .faq-div .table-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.HelpView .help-container .faq-div .table-div .css-1y8mk30-SkeletonTheme {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.HelpView .help-container .faq-div .faq-cell {
+  color: #2680bc;
+  font-size: 16px;
+  font-weight: 600;
+  /* border-radius: 32px; */
+  margin: 5px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px rgba(169, 169, 169, 0.5) solid;
+  /* max-width: 100%; */
+  width: 100%;
+  padding: 5px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.HelpView .help-container .faq-div .faq-cell .faq-answer {
+  height: auto;
+  width: 340px;
+  opacity: 0.8;
+  color: #2e3134;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 15px;
+}
+
+.HelpView .help-container .faq-div .faq-cell .faq-arrow {
+  float: right;
+  color: darkgray;
+  height: 100%;
+  width: 20px;
+}
+
+.faq-down-arrow {
+  height: 15px;
+  width: 10px;
+}
+.HelpView .help-container .faq-div .faq-cell .faq-quest-arrow-div {
+  display: flex;
+  padding-top: 10px;
+}
+.HelpView .help-container .faq-div .faq-cell .faq-quest-arrow-div span {
+  flex: 1;
+  min-width: 5px;
+}
+.HelpView .help-container .faq-div .faq-cell p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #2680bc;
+}
+
+.HelpView .help-container .faq-div .faq-cell:hover p {
+  color: white;
+}
+
+.HelpView .create-content-loading .loading {
+  top: 0;
+}
+
+.HelpView .help-container > h3,
+.HelpView .help-container > h2,
+.HelpView .help-container .scroll-container > p,
+.HelpView .help-container .scroll-container > .question-div,
+.HelpView .help-container .faq-div .faq-cell {
+  padding: 0 20px;
+}
+
+@keyframes run {
+  0% {
+    right: -100%;
+  }
+  25% {
+    right: -75%;
+  }
+  50% {
+    right: -50%;
+  }
+  75% {
+    right: -25%;
+  }
+  100% {
+    right: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.patient-referral-view {
+  width: 400px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+.patient-referral-view .cross-button {
+  background: var(--state-info-error);
+  width: 25px;
+  height: 25px;
+  top: 3px;
+  right: 3px;
+}

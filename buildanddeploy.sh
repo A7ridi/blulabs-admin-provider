@@ -1,0 +1,1 @@
+npm install && npm run build && aws s3 cp /home/ubuntu/admin/build/ s3://providernew.playbackhealth.com --recursive && aws cloudfront create-invalidation --distribution-id  E1OPWDZ0TK3HNB --paths "/*"

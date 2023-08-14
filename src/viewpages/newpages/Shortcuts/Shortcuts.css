@@ -1,0 +1,8 @@
+#shortcuts .shortcutsList-main-div {
+  width: 300px;
+  border-right: var(--default-border);
+}
+#shortcuts .add-shortcut-container {
+  width: 600px;
+  height: 610px;
+}

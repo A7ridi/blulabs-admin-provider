@@ -1,0 +1,115 @@
+.share-media-view {
+   width: 550px;
+   height: 682px;
+   overflow: hidden;
+}
+.image-box {
+   position: relative;
+   height: 33%;
+}
+.image-commentBox {
+   height: 33%;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.img-shadow-effect {
+   position: absolute;
+   bottom: 0;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.6447988130799195) 0%,
+      rgba(230, 230, 230, 0.7652469923516282) 54%,
+      rgba(152, 152, 152, 1) 100%
+   );
+   width: 100%;
+   height: 100%;
+   opacity: 1;
+}
+.shared-content {
+   padding: 0 43px;
+}
+.share-this-content {
+   font-weight: 600;
+   font-size: 22px;
+}
+.comment-input {
+   width: 88%;
+   transform: translate(7%, 0%);
+}
+.image-commentBox input[type="text"] {
+   font-size: 14px;
+}
+.search-pagination-width {
+   width: 60%;
+}
+.pagination-number {
+   font-size: 13px;
+}
+.share-modal-tabs {
+   scroll-behavior: smooth;
+}
+.overflow-y {
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+.overflow-share-modal {
+   overflow-x: hidden;
+   padding: 6px;
+}
+.scrollbar-share::-webkit-scrollbar {
+   width: 0px;
+}
+.checkbox-provider {
+   margin-left: -9px;
+}
+.share-modal-tabs input[type="checkbox"] {
+   -ms-transform: scale(1.5); /* IE */
+   -moz-transform: scale(1.5); /* FF */
+   -webkit-transform: scale(1.5); /* Safari and Chrome */
+   -o-transform: scale(1.5); /* Opera */
+}
+.checkbox-warning-filled [type="checkbox"][class*="filled-in"]:checked + label:after {
+   border-color: #043293;
+   background-color: #043293;
+}
+.share-button {
+   margin-bottom: 0px;
+   gap: 25px;
+}
+.share-btn-default {
+   font-weight: bold;
+   background: #043293;
+   color: white;
+   padding: 0px 9px 0px 3px;
+}
+.horizontal-bar {
+   width: 115%;
+   margin-left: -8%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.shared-content-text {
+   font-size: 17px;
+}
+.close-share-modal {
+   font-size: 30px;
+   position: absolute;
+   top: 0%;
+   right: 3%;
+   cursor: pointer;
+}
+.providers-text {
+   margin-top: 15px;
+   margin-bottom: 8px;
+}
+.all-providers-list {
+   height: 269px;
+   scroll-behavior: smooth;
+}
+.careteam-skeleton-loader {
+   height: 90px;
+}
+.overflow-loader {
+   overflow: hidden;
+}

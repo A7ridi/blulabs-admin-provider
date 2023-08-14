@@ -1,0 +1,672 @@
+.login-patient-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   min-height: 100vh;
+   background: #f6f6f6;
+   padding: 20px;
+}
+.provider-logo {
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   width: 120px;
+   height: 44px;
+   position: absolute;
+   background-image: url("../../../../images/Logo.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   top: 2%;
+   left: 2%;
+}
+.healthcare-title {
+   letter-spacing: 0.374px;
+   font-weight: 700;
+   font-size: 26px;
+}
+/* Login Box */
+.login-patient-container {
+   margin-top: 28px;
+   /* width: 656px;
+   height: 466.9px; */
+   width: 800px;
+   height: 619px;
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 20px;
+   text-align: left;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.login-content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   max-width: 500px;
+}
+.login-content > img {
+   width: 150px;
+}
+
+.login-patient-container p {
+   margin: 10px;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.login-patient-container .message-label {
+   font-weight: normal !important;
+   font-size: 16px !important;
+   line-height: 16px !important;
+   color: #2680bc !important;
+}
+.login-patient-container .did-not-get .resend-link {
+   color: #528df6;
+}
+.login-patient-container h3 {
+   font-weight: 500;
+   font-size: 24px;
+   margin-bottom: 2.7rem;
+   line-height: 1;
+   color: var(--gray-color-new);
+   position: relative;
+   text-align: center;
+   margin-top: 10px;
+}
+.second-step h3 {
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 1;
+   position: relative;
+   text-align: center;
+   margin-top: 10px;
+   width: 400px !important;
+   margin-bottom: -15px;
+   line-height: 41px;
+}
+.login-patient-container > p {
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.login-patient-container .login-input {
+   width: 423px;
+   height: 46px;
+   border: 1px solid #e0e0e0;
+   box-sizing: border-box;
+   border-radius: 5px;
+   color: var(--gray-color-new);
+   padding: 0 12px;
+   font-size: 16px;
+   letter-spacing: 0.6px;
+   font-weight: normal;
+}
+
+.login-patient-container .login-input::-webkit-input-placeholder {
+   /* Edge */
+   color: var(--gray-color-new);
+   opacity: 0.4;
+}
+.login-patient-container .login-input:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: var(--gray-color-new);
+   opacity: 0.4;
+}
+.login-patient-container .login-input::placeholder {
+   color: var(--gray-color-new);
+   opacity: 0.4;
+}
+.login-patient-container .row {
+   margin-left: -8px;
+   margin-right: -8px;
+}
+.login-patient-container .row > div {
+   padding-left: 8px;
+   padding-right: 8px;
+}
+.login-patient-container .form-group {
+   margin-bottom: 2.1rem;
+   margin-top: 25px;
+}
+.login-patient-container .third-step {
+   margin-bottom: 2.1rem;
+   margin-top: 60px;
+}
+.login-patient-container #password-form-group {
+   width: 100%;
+   height: 46px;
+   border: 1px solid #ced4da;
+   box-sizing: border-box;
+   border-radius: 5px;
+   padding: 0 12px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-patient-container #password-form-group .login-input {
+   width: 100%;
+   height: 100%;
+   border: none;
+   border-radius: 0;
+   padding: 0;
+}
+.login-patient-container #password-form-group #password-visibility-image {
+   width: 30px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   padding: 5px;
+   border-radius: 50%;
+}
+.login-patient-container #password-form-group #password-visibility-image:hover {
+   background: rgba(201, 201, 201, 0.3);
+}
+.login-patient-container .btn {
+   width: 100%;
+   height: 48px;
+   padding: 6px 10px;
+   font-weight: 700;
+   border-radius: 5px;
+   font-size: 18px;
+}
+.login-patient-container .btn.btn-blue-block {
+   background-color: var(--theme-color-second);
+   border-color: var(--theme-color-second);
+   border-width: 1px;
+   font-weight: 500;
+   font-size: 16px;
+   margin-top: 71px;
+   width: 330px;
+   height: 50px;
+}
+.patient-login .create-account {
+   margin-top: 25px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 22px;
+   color: #000000;
+   text-align: center;
+}
+.patient-login .already-account {
+   margin-top: 40px;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 18px;
+   color: rgba(0, 0, 0, 0.4);
+   text-align: center;
+}
+.login-provider-cred img {
+   cursor: pointer;
+}
+.login-provider-cred {
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
+h4.login-patient-container.already-acc {
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 18px;
+   color: rgba(0, 0, 0, 0.4);
+}
+.login-patient-container .btn.btn-red-block {
+   background: #ffffff;
+   border: 1px solid #ff567a;
+   box-sizing: border-box;
+   border-radius: 8px;
+   color: #ff567a;
+   border-width: 1px;
+   font-weight: 500;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 22px;
+   margin-top: 18px;
+   width: 330px;
+   height: 50px;
+}
+.login-patient-container .login-btn {
+   border: 1px solid var(--theme-color-second);
+   color: var(--theme-color-second);
+   width: 170px !important;
+}
+.login-patient-container .login-btn:hover {
+   color: #ffffff;
+   cursor: pointer;
+}
+.login-patient-container .login-btn:disabled {
+   cursor: not-allowed;
+   background-color: transparent;
+   border-color: var(--theme-color-second);
+   color: var(--theme-color-second);
+}
+.login-patient-container .did-not-get {
+   text-align: center;
+   font-size: 14px;
+   color: var(--gray-color-new);
+   margin-bottom: 20px;
+}
+
+.login-patient-container .did-not-get .resend-link {
+   padding: 0;
+   border: none;
+   /* color: var(--theme-color-second); */
+   /* text-decoration: underline; */
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 1;
+   margin-left: 5px;
+   margin-right: 5px;
+   background-color: transparent;
+}
+input.login-input.new {
+   display: block;
+   height: 35px;
+   background-color: #fff;
+   border: 1px solid #e0e0e0;
+   font-size: 1.8rem;
+   font-weight: 300;
+   color: #1e1c1c;
+   letter-spacing: 0.15px;
+   height: 50px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+
+.login-box input.login-input.new::-webkit-input-placeholder {
+   /* Edge */
+   color: #000;
+   opacity: 0.4;
+}
+.login-box input.login-input.new:-ms-input-placeholder {
+   /* Internet Explorer 10-11 */
+   color: #000;
+   opacity: 0.4;
+}
+.login-box input.login-input.new::placeholder {
+   color: #000;
+   opacity: 0.4;
+}
+.login-box #password-form-group input.login-input.new {
+   width: 100%;
+   height: 100%;
+   border: none;
+   border-radius: 0;
+   padding: 0;
+}
+.form-group .healthcare {
+   margin-top: 64px;
+}
+.success-gif {
+   width: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 73px;
+}
+.small-frame {
+   width: 100px;
+   margin-bottom: 15px;
+   animation: fadeIn 3s;
+   -webkit-animation: fadeIn 3s;
+   -moz-animation: fadeIn 3s;
+   -o-animation: fadeIn 3s;
+   -ms-animation: fadeIn 3s;
+}
+/* .fadeout-frame {
+    width: 100px;
+    animation: fadeOut 12s;
+    -webkit-animation: fadeOut 12s;
+    -moz-animation: fadeOut 12s;
+    -o-animation: fadeOut 12s;
+    -ms-animation: fadeOut 12s;
+ } */
+.welcome-text {
+   /* margin-bottom: 2rem; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   animation: fadeIn 3s;
+   -webkit-animation: fadeIn 3s;
+   -moz-animation: fadeIn 3s;
+   -o-animation: fadeIn 3s;
+   -ms-animation: fadeIn 3s;
+}
+/* @keyframes fadeOut {
+    0% {
+       opacity: 1;
+       margin-top: 0;
+    }
+    100% {
+       opacity: 0;
+       margin-top: 26rem;
+    }
+ } */
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+      /* margin-top: 0; */
+   }
+   100% {
+      opacity: 1;
+      /* margin-top: 26rem; */
+   }
+}
+@-moz-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-webkit-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-o-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+
+@-ms-keyframes fadeIn {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
+.welcome-text > h1 {
+   color: #fff;
+   font-weight: 500;
+   font-size: 34px;
+   line-height: 30px;
+}
+.welcome-text > p {
+   color: #fff;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 24px;
+   width: 376px;
+   margin-top: 26px;
+}
+.welcome-text .qrcode-text {
+   color: #fff;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 24px;
+   width: 376px;
+   margin-top: 60px;
+}
+.welcome-text .qr-code {
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 22px;
+   padding: 11px 25px;
+   color: white;
+}
+button.qr-code {
+   margin-top: 32px;
+   background: #ff567a;
+   border-radius: 8px;
+   margin-bottom: 30px;
+}
+.smaller-frame {
+   width: 40px;
+   height: 40px;
+}
+.video-tag {
+   gap: 1rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.video-tag > h3 {
+   color: #fff !important;
+   font-weight: 600;
+   font-size: 24px;
+   margin-bottom: 40px;
+   margin-top: 15px;
+}
+iframe#fc_widget.d-hotline.h-btn .chat-content {
+   border-top-left-radius: 38px !important;
+   border-top-right-radius: 5px !important;
+   border-bottom-left-radius: 38px !important;
+   border-bottom-right-radius: 38px !important;
+}
+.qrcode-modal-content {
+   margin-top: 34px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.qrcode-name {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 23px;
+   line-height: 24px;
+   letter-spacing: 0.38px;
+   color: #000000;
+   text-align: center;
+   margin-top: 6px;
+}
+.qrcode-email {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   letter-spacing: 0.38px;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.72);
+   margin-top: 6px;
+}
+.qrcode-phone {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 24px;
+   letter-spacing: 0.38px;
+   margin-top: 6px;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.72);
+}
+.qrmodal-header {
+   width: 361px;
+   margin-top: 10px;
+}
+.close-btn-modal {
+   top: 3%;
+   right: 3%;
+}
+.btn.btn-blue-block.got-it-btn {
+   margin-top: 40px;
+   width: 330px;
+   border-radius: 8px;
+}
+.qrcode-img {
+   margin-top: 14px;
+   padding: 20px;
+   padding-bottom: 30px;
+}
+.qrcode-text {
+   margin-top: 22px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.5px;
+   width: 306px;
+}
+.qrcode-link {
+   margin-top: 16px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: #007aff;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.5px;
+}
+
+/* Password eye icon */
+.input-text {
+   position: relative;
+   margin-top: 30px;
+}
+
+input[type="text"] {
+   /* height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 0;
+    font-size: 13px; */
+}
+
+input[type="password"] {
+   /* height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid #e0e3e9;
+    padding: 0 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: 0; */
+}
+.fa-eye {
+   position: absolute;
+   right: 20px;
+   top: 16px;
+   font-size: 15px;
+   cursor: pointer;
+   width: 18.33px;
+}
+.otp-input.form-control:focus {
+   color: #000 !important;
+   /* background-color: #ff567a; */
+}
+
+/* Slideshow container */
+.slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+   height: 330px;
+}
+
+/* Caption text */
+.text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+}
+.dot {
+   cursor: pointer;
+   width: 8.81px;
+   height: 8.8px;
+   margin: 0 2px;
+   background-color: #e0e0e0;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+.qrcode-dot {
+   text-align: center;
+   margin-top: 31px;
+}
+.active {
+   background-color: #043293;
+}
+.fadeCircle {
+   -webkit-animation-name: fadeCircle;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fadeCircle;
+   animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeCircle {
+   from {
+      opacity: 0.4;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+@keyframes fadeCircle {
+   from {
+      opacity: 0.4;
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+   .text {
+      font-size: 11px;
+   }
+}
+
+.Toastify {
+   position: absolute;
+   z-index: 1;
+   align-items: center;
+   margin: auto;
+   top: 5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#snackbar {
+   visibility: hidden;
+}
+#snackbar.show {
+   visibility: visible;
+   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+   animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}

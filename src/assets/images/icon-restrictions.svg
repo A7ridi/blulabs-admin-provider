@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>icon-restrictions</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-restrictions" fill="#0063E8" fill-rule="nonzero">
+            <path d="M18,0 C8.0592,0 0,8.0592 0,18 C0,27.9408 8.0592,36 18,36 C27.9408,36 36,27.9408 36,18 C36,8.0592 27.9408,0 18,0 Z M18,4.9092 C20.7276,4.9092 23.2596,5.7444 25.356,7.1724 L7.1724,25.356 C5.7444,23.2596 4.9092,20.7276 4.9092,18 C4.9092,10.7712 10.7712,4.9092 18,4.9092 Z M18,31.0908 C15.2724,31.0908 12.7404,30.2556 10.644,28.8276 L28.8276,10.644 C30.2556,12.7404 31.0908,15.2712 31.0908,18 C31.0908,25.2288 25.2288,31.0908 18,31.0908 Z" id="icon-Restrictions"></path>
+        </g>
+    </g>
+</svg>

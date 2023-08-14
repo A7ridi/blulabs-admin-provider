@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>video</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Screen-record-2" transform="translate(-1104.000000, -399.000000)">
+            <g id="video" transform="translate(1104.000000, 399.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2.03420815" fill="#0063E8" cx="20.8382298" cy="20.8382298" r="19.8211257"></circle>
+                <path d="M23.7031246,15.5847167 L30.8936634,26.3705249 C31.3091198,26.9937095 31.1407228,27.8356945 30.5175382,28.251151 C30.2947686,28.399664 30.0330234,28.4789141 29.7652877,28.4789141 L15.3842102,28.4789141 C14.6352354,28.4789141 14.0280714,27.8717501 14.0280714,27.1227753 C14.0280714,26.8550396 14.1073215,26.5932944 14.2558345,26.3705249 L21.4463733,15.5847167 C21.8618297,14.961532 22.7038147,14.793135 23.3269994,15.2085915 C23.4759743,15.3079081 23.603808,15.4357417 23.7031246,15.5847167 Z" id="Triangle" fill="#FFFFFF" transform="translate(22.574749, 21.185534) rotate(90.000000) translate(-22.574749, -21.185534) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

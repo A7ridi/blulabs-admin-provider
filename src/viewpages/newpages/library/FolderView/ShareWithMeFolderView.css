@@ -1,0 +1,17 @@
+.folder-tree-node {
+  padding-left: 0.75rem;
+}
+#shared-folders-list {
+  animation: shared-folder-list-anim 3s forwards;
+}
+
+@keyframes shared-folder-list-anim {
+  0% {
+    /* height: 0px; */
+    max-height: 0px;
+  }
+  100% {
+    /* max-height: auto; */
+    max-height: 100vh;
+  }
+}

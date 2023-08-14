@@ -1,0 +1,636 @@
+@media only screen and (min-width: 992px) {
+  .modal.custom-modal .modal-dialog {
+    max-width: 730px;
+  }
+}
+@media only screen and (max-width: 1699px) {
+  .local-participant {
+    right: 10px;
+    bottom: 5px;
+  }
+  .document-view-content {
+    padding: 50px;
+  }
+}
+@media only screen and (max-width: 1499px) {
+  .page-body-wrapper.withcontent-list .ProgressSteps,
+  .page-body-wrapper.withcontent-list .template-page form {
+    max-width: 100%;
+  }
+  .share-btns.share-centered {
+    padding-left: 0;
+  }
+
+  .patient-list-wrap .table-bordered td,
+  .patient-list-wrap .table-bordered th {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+
+  .card-new .card-body {
+    padding: 26px;
+  }
+  .info-card .btn-blue-block,
+  .search-card .btn {
+    padding: 12px 35px;
+  }
+  .info-card .card-body {
+    padding: 16px 26px;
+  }
+  .info-card .card-inner {
+    padding: 14px 5px;
+  }
+  .info-card .card-inner label {
+    font-size: 19px;
+  }
+  .info-card .card-inner .descript-col {
+    font-size: 19px;
+    margin-top: 5px;
+  }
+  .share-btn button {
+    padding: 7px 13px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .page-body-wrapper.withcontent-list {
+    padding-left: 0;
+  }
+  .top-wrapper {
+    padding: 11px 30px;
+  }
+  .inner-wrapper {
+    padding: 30px;
+  }
+  header {
+    padding: 0 15px;
+  }
+  .main-logo h1 .logo-text {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .main-logo img {
+    margin-right: 15px;
+  }
+  .navigation-list {
+    margin-right: 15px !important;
+    font-size: 15px;
+  }
+  .user-profile-menu {
+    margin-left: 0;
+  }
+  .info-card .btn-blue-block,
+  .search-card .btn {
+    padding: 10px 15px;
+  }
+  .info-card .card-inner {
+    padding: 10px 0;
+  }
+  .info-card .card-inner label {
+    font-size: 17px;
+  }
+  .info-card .card-inner .descript-col {
+    font-size: 17px;
+    margin-top: 4px;
+  }
+  .info-card .btn-blue-block img {
+    margin-right: 10px;
+    max-height: 16px;
+  }
+  .activity .act-height,
+  .search-card .search-result {
+    height: auto;
+  }
+  .sidebar,
+  .sidebar-fixed-search {
+    max-width: 280px;
+  }
+  .sidebar-fixed-search.chapter-header.content-list {
+    left: 280px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  header {
+    /* abhishek commented */
+    /* height: 120px; */
+    flex-wrap: wrap;
+  }
+  .ham-logo-wrapper {
+    max-width: 38%;
+  }
+  header .nav-wrapper {
+    max-width: 62%;
+  }
+  header .share-btns {
+    width: 200px;
+    align-self: flex-end;
+    margin-right: 25px;
+  }
+  .navigation-menu {
+    padding: 0;
+  }
+  .navigation-menu ul {
+    justify-content: space-around;
+  }
+  .navigation-list {
+    margin: 0;
+  }
+  .navigation-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* .profile-wrapper {
+        display: none;
+    } */
+  .navigation-list:last-child {
+    margin: 0;
+  }
+  .invite-btn {
+    /* position: absolute; */
+    /* top: 15px;
+        right: 15px; */
+    border-radius: 30px;
+    height: 40px;
+  }
+  .dropdown,
+  .dropleft,
+  .dropright,
+  .dropup {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .invite-btn a {
+    padding: 7px 15px;
+    height: 40px;
+    line-height: 24px;
+  }
+  /* abhishek commented */
+  /* .sidebar{max-height: calc(100vh - 120px);top: 120px;margin-left: -376px;} */
+  /* .sidebar-open{margin-left: 0;} */
+  .template-menu-title {
+    top: 120px;
+  }
+  /* .page-body-wrapper{padding-top: 120px;} */
+  .share-btns {
+    width: calc(100% - 455px);
+    margin: 0;
+    padding-top: 5px;
+  }
+  /*==================== Media Upload Success Page start ==========*/
+  .template-page .success svg {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .patient-list-wrap .north-wrap.new-added .north {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 991.98px) {
+  .top-wrapper h4 {
+    font-size: 26px;
+  }
+  .custom-filed label {
+    font-size: 18px;
+  }
+  .custom-input {
+    font-size: 20px;
+  }
+  .btn-primary,
+  .btn-outline-primary {
+    font-size: 18px;
+  }
+  .custom-filed {
+    margin-bottom: 16px;
+  }
+  .top-wrapper {
+    padding: 11px 20px;
+  }
+  .inner-wrapper {
+    padding: 20px;
+  }
+  .btn.btn-blue-border {
+    padding: 10px 16px;
+  }
+  .btn.btn-blue-block {
+    padding: 10px 16px;
+  }
+  .modal.custom-modal .modal-dialog {
+    max-width: 90%;
+    min-width: 350px;
+  }
+  .table.Info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .pagination {
+    text-align: center;
+    margin: 0 auto;
+  }
+  header .share-btns {
+    display: none;
+  }
+  .ham-logo-wrapper {
+    max-width: 50%;
+  }
+  header .nav-wrapper {
+    max-width: 50%;
+  }
+  .info-card .row > div {
+    border-left: none;
+    border-top: solid 1px #d8d8d8;
+  }
+  .info-card .row > div:first-child {
+    border-top: none;
+  }
+  .info-card .card-body {
+    padding: 15px 15px;
+  }
+  .info-card .card-inner {
+    padding: 10px 5px !important;
+  }
+  .info-card .btn-blue-block {
+    margin-top: 10px;
+  }
+  .info-card hr {
+    margin: 0 -15px;
+  }
+  .patient-list-wrap .north-wrap.new-added .north {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  header {
+    height: auto;
+    padding: 10px 15px;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+  .profile-wrapper .dropdown-menu {
+    top: 10px !important;
+  }
+  .ham-logo-wrapper {
+    max-width: 100%;
+    justify-content: center;
+  }
+  header .nav-wrapper {
+    max-width: 100%;
+    margin-top: 5px;
+    justify-content: center;
+  }
+  .page-body-wrapper {
+    padding-top: 110px;
+  }
+  .navigation-list {
+    margin-right: 12px !important;
+    font-size: 12px;
+  }
+  .main-logo h1 .logo-text {
+    font-size: 16px;
+    padding-left: 12px;
+  }
+  .main-logo img {
+    max-width: 100px;
+    margin-right: 12px;
+  }
+  .btn.btn-blue-border {
+    padding: 8px 14px;
+    font-size: 1.6rem;
+  }
+  .btn.btn-blue-block {
+    padding: 8px 14px;
+    font-size: 1.6rem;
+  }
+  /* Login */
+  .login-box h3 {
+    font-size: 2.5rem;
+  }
+  .login-box .login-input {
+    font-size: 18px;
+  }
+  .login-box .btn {
+    font-size: 17px;
+    height: 45px;
+    padding: 5px 10px;
+  }
+  .login-box .did-not-get .resend-link {
+    font-size: 15px;
+  }
+  .otp-input.form-control {
+    height: 38px;
+    width: 38px !important;
+    font-size: 18px;
+  }
+
+  /*==================== Floating Input */
+
+  .floating-form {
+    padding-top: 20px;
+  }
+  .theme-input {
+    font-size: 1.8rem;
+  }
+  .theme-label {
+    font-size: 1.8rem;
+    top: 8px;
+  }
+  .theme-input:focus ~ .theme-label,
+  .theme-input:not(:placeholder-shown) ~ .theme-label {
+    font-size: 1.2rem;
+    top: -16px;
+  }
+  .clear-input .icon-close {
+    top: 8px;
+    font-size: 1.7rem;
+  }
+  /*==================== File Type Input */
+  .file-input {
+    height: 300px;
+  }
+  .dropzone-placeholder span {
+    font-size: 12px;
+  }
+
+  /*==================== Media Upload Success Page end ==========*/
+  /*==================== Sidebar ==========*/
+  .sidebar {
+    margin-left: 0;
+    max-width: 100%;
+    width: 100%;
+    z-index: 998;
+    position: absolute;
+    left: -106%;
+    top: 89px;
+    max-height: calc(100vh - 80px);
+  }
+  .sidebar-open {
+    left: 0;
+  }
+  .slider-content .chapter-wrapper .chapter-list {
+    height: calc(100% - 80px) !important;
+  }
+  .sidebar-fixed-search {
+    max-width: 100%;
+  }
+  .sidebar-fixed-search.chapter-header {
+    height: calc(100vh - 120px);
+  }
+  .sidebar-date {
+    max-width: 100%;
+  }
+  .template-menu-title {
+    max-width: 100%;
+  }
+  .chapter-detail .cahpter-detail-list li a {
+    padding-right: 45px;
+  }
+  /*==================== Invite Patient ==========*/
+  .invite-patient-block {
+    padding: 20px;
+  }
+  .invite-patient-header .title {
+    font-size: 2.6rem;
+  }
+  .invite-patient-btns button.btn {
+    max-width: 48%;
+  }
+  .how-to-invite label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .how-to-invite p {
+    font-size: 1.8rem;
+  }
+  .template-page {
+    padding: 15px 25px;
+    padding-left: var(--pl-15);
+    padding-right: var(--pr-15);
+  }
+  .invite-patient-header {
+    margin-bottom: 50px;
+  }
+  .invite-patient-btns {
+    padding: 30px 0 10px;
+  }
+  .profile-wrapper {
+    justify-content: flex-end;
+  }
+
+  .share-btns {
+    /* width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 70px; */
+    width: 100%;
+    padding: 10px 0 0;
+    position: absolute;
+    top: 56px;
+    background: #073140;
+  }
+  .share-btn {
+    border-radius: 15px;
+    border: 1px solid #dadada;
+  }
+  .share-btn.active {
+    border-color: rgb(0, 154, 223);
+  }
+  .share-btn a {
+    height: auto;
+    padding: 8px 15px;
+  }
+  .page-body-wrapper.with-sharebtn {
+    padding-top: 120px;
+  }
+  .page-done .link-blue {
+    font-size: 1.3rem;
+  }
+  .ProgressSteps > div {
+    width: 300px;
+  }
+  .temp-title {
+    font-size: 20px;
+  }
+  /* .template-page {
+    padding: 15px 25px;
+  } */
+  .remote-participants .participants-wrap .box-icon {
+    width: 150px;
+    min-width: 150px;
+    height: 150px;
+  }
+  .remote-participants .participants-wrap .box-icon p {
+    font-size: 84px;
+  }
+
+  /* Call billable */
+  .call-billable {
+    padding: 20px;
+  }
+  .call-billable h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .call-billable .call-time {
+    font-size: 17px;
+  }
+  .call-billable div.css-yk16xz-control,
+  .call-billable div.css-1pahdxg-control {
+    min-height: 42px;
+  }
+  .call-billable div.css-1wa3eu0-placeholder {
+    font-size: 18px !important;
+  }
+  .call-billable div.css-1uccc91-singleValue {
+    font-size: 18px !important;
+  }
+  .call-billable .css-b8ldur-Input {
+    font-size: 18px !important;
+  }
+  .call-billable .css-26l3qy-menu {
+    font-size: 18px;
+  }
+  .call-billable .n-b-button {
+    margin-top: 30px;
+  }
+  .call-billable .n-b-button .btn {
+    width: 100%;
+    max-width: 340px;
+    height: 46px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .advance-block .ad-column {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .custom-filed label {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .custom-input {
+    height: 42px;
+    font-size: 18px;
+  }
+  .btn-primary,
+  .btn-outline-primary {
+    font-size: 16px;
+    padding: 7px 20px;
+  }
+  .share-button {
+    margin-bottom: 20px;
+  }
+  .share-button .share-btn button {
+    padding: 7px 20px;
+  }
+  .top-wrapper h4 {
+    font-size: 22px;
+  }
+  .inner-wrapper h3 {
+    font-size: 21px;
+  }
+  .your-request {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .request-success {
+    padding: 40px 0 10px 0;
+  }
+  .with-button .btn {
+    height: 34px;
+    padding: 4px 10px !important;
+  }
+  .with-button .custom-input {
+    padding-right: 130px;
+  }
+  .modal-backdrop.show {
+    z-index: 111;
+  }
+  .modal.custom-modal .modal-dialog {
+    max-width: 100%;
+    margin: 90px 1.2rem;
+  }
+  .modal.custom-modal .modal-content {
+    padding: 22px 20px 30px;
+  }
+  .modal.custom-modal .modal-header .modal-title {
+    font-size: 2.4rem;
+  }
+  .modal.custom-modal .modal-header {
+    margin: 0 0 22px 0;
+  }
+
+  .visit-button {
+    margin-bottom: 20px;
+  }
+  .mute-dis-buttton {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .mute-dis-buttton button + button {
+    margin-left: 22px;
+  }
+  .room .txt {
+    font-size: 20px;
+  }
+  .info-card .card-inner label {
+    font-size: 16px;
+  }
+  .info-card .card-inner .descript-col {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  .card-new h3 {
+    font-size: 20px;
+  }
+  .card-new .card-body {
+    padding: 24px 18px;
+  }
+  .activity .act-row {
+    font-size: 13px;
+  }
+  .patient-list-wrap .north-wrap.new-added .north {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .main-logo h1 {
+    font-size: 16px;
+  }
+  .invite-btn {
+    top: 20px;
+  }
+  .invite-btn a {
+    padding: 3px 15px;
+    line-height: 32px;
+  }
+  .ProgressSteps > div {
+    width: 145px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .login-box .btn {
+    height: 40px;
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+  span.otp-span {
+    margin: 0;
+  }
+  .otp-input.form-control {
+    margin: 0 1px;
+  }
+}
+@media (min-width: 576px) {
+  .invite-northwell.document-modal .modal-dialog {
+    max-width: 375px;
+    margin: 1.75rem auto;
+  }
+}

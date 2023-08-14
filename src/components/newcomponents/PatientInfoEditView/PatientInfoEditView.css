@@ -1,0 +1,15 @@
+.patient-info-edit-view {
+   width: 600px;
+   min-height: 575px;
+   background: #ffffff;
+   border-radius: 10px;
+   margin: auto;
+   height: auto;
+}
+
+.patient-info-edit-view input::placeholder {
+   color: var(--disabled-color);
+}
+.patient-info-edit-view .react-datepicker {
+   bottom: 60px;
+}

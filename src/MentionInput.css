@@ -1,0 +1,133 @@
+.mention-input {
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 92px !important;
+  max-height: 92px !important;
+}
+
+.mention-input::-webkit-scrollbar {
+  display: none !important;
+}
+.mention-input {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.mention-input__control > textarea::-webkit-scrollbar {
+  display: none !important;
+}
+.mention-input__control > textarea {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.mention-input .mention-input__control {
+  padding: 12px 15px;
+  height: 190px;
+}
+
+.mention-input .mention-input__control textarea {
+  border-color: transparent;
+  overflow-y: scroll !important;
+  padding: 12px 15px;
+}
+
+.mention-input .mention-input__suggestions {
+  font-size: 14px;
+  max-height: 200px;
+  width: 266px;
+  margin-left: 14px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 10%) !important;
+  overflow-y: auto;
+  z-index: 9 !important;
+}
+
+.mention-input .mention-input__suggestions__item {
+  padding: 5px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mention-input .mention-input__suggestions__item--focused {
+  background-color: #cee4e5;
+}
+
+.mention-input__mention {
+  color: #008dd0;
+  z-index: 1;
+  position: relative;
+}
+
+.mention-input__highlighter {
+  height: 100% !important;
+  overflow-y: hidden !important;
+}
+
+/* SECOND MENTION INSIDE CONTENT */
+
+.mention-input-message {
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
+.mention-input-message::-webkit-scrollbar {
+  display: none !important;
+}
+.mention-input-message {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.mention-input-message__control > textarea::-webkit-scrollbar {
+  display: none !important;
+}
+.mention-input-message__control > textarea {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+.mention-input-message .mention-input-message__control {
+  padding: 12px 15px;
+  height: 100%;
+}
+
+.mention-input-message .mention-input-message__control textarea {
+  border-color: transparent;
+  overflow-y: scroll !important;
+  padding: 12px 15px;
+}
+
+.mention-input-message .mention-input-message__suggestions {
+  font-size: 14px;
+  max-height: 200px;
+  width: 266px;
+  margin-left: 14px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 8px 0 rgb(0 0 0 / 10%) !important;
+  overflow-y: auto;
+  z-index: 9 !important;
+}
+
+.mention-input-message .mention-input-message__suggestions__item {
+  padding: 5px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.mention-input-message .mention-input-message__suggestions__item--focused {
+  background-color: #cee4e5;
+}
+
+.mention-input-message__mention {
+  color: #008dd0;
+  z-index: 1;
+  position: relative;
+}
+
+.mention-input-message__highlighter {
+  height: 100% !important;
+  overflow-y: hidden !important;
+}

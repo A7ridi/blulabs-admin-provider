@@ -1,0 +1,18 @@
+{
+    "CTM": "../assets/images/icon-diagnosis.svg",
+    "DIS": "../assets/images/DIS.svg",
+    "MED": "../assets/images/icon-diagnosis.svg",
+    "PBU": "../assets/images/PBU.svg",
+    "DAP": "../assets/images/icon-nutrition-instructions.svg",
+    "SYM": "../assets/images/SYM.svg",
+    "MRS": "../assets/images/information-icon.svg",
+    "ANR": "../assets/images/activities-icon.svg",
+    "WCI": "../assets/images/bandages-icon.svg",
+    "NIS": "../assets/images/NIS.svg",
+    "POI": "../assets/images/icon-make-sure.svg",
+    "AIN": "../assets/images/icon-emergency-room.svg",
+    "URV": "../assets/images/icon-dont-be-alarmed.svg",
+    "WCV": "../assets/images/icon-nutrition-instructions.svg",
+    "AAR": "../assets/images/icon-chapter-template.svg",
+    "POP": "../assets/images/icon-call-If.svg"
+}
